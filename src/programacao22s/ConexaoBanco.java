@@ -3,6 +3,7 @@ package programacao22s;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
   
 public class ConexaoBanco {
 	public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class ConexaoBanco {
 			Connection con = new ConexaoBanco().conectarBanco();
 			if (con != null) {
 				System.out.println("Conectado com sucesso.");
-				criarTabelaFAQ();
+				criarTabelaFAQ(con);
 				con.close();
 			}
 		} catch (SQLException e) {
@@ -49,7 +50,7 @@ public class ConexaoBanco {
 	protected static final String FECHA_PARENTESES = " ) ";
 	private static final String PRIMARY_KEY = " PRIMARY KEY ";
 
-	public void criarTabelaFAQ() {
+	public void criarTabelaFAQ(Connection con) {
 		StringBuilder sql = new StringBuilder();
 		sql.append(CREATE_TABLE_IF_NOT_EXISTS);
 		sql.append(FAQ_FACULDADE_PAI);
@@ -70,6 +71,14 @@ public class ConexaoBanco {
 		sql.append(FECHA_PARENTESES);
 
 		System.out.println("SQL Criar tabela " + FAQ_FACULDADE_PAI + " - " + sql);
+		
+		try (Statement stmt = con.createStatement();)  {
+			int ret = stmt.executeUpdate(sql.toString());
+		} catch (SQLException e) {
+ 			e.printStackTrace();
+		}
+		
+		
 
 	}
 }
