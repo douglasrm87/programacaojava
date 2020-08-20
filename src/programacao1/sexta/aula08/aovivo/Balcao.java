@@ -2,8 +2,6 @@ package programacao1.sexta.aula08.aovivo;
 
 import java.util.Scanner;
 
-import com.sun.xml.internal.ws.api.pipe.NextAction;
-
 //https://github.com/douglasrm87/Programacao1e2
 public class Balcao {
 
