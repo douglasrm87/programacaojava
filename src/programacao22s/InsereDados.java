@@ -12,10 +12,10 @@ public class InsereDados implements Constantes {
 	}
 
 	private void processar() {
-		FAQ f = new FAQ(0, 1, "Teste");
-		inserirFAQ(f);
-//		FAQ f2 = new FAQ(0, 1, "Teste","Conteudo Teste");
-//		inserirFAQDetalhe(f2);
+//		FAQ f = new FAQ(0, 1, "Teste");
+//		inserirFAQ(f);
+		FAQ f2 = new FAQ(0, 1, "Teste","Conteudo Teste");
+		inserirFAQDetalhe(f2);
 
 	}
 	// Inserir dados
@@ -68,7 +68,7 @@ public class InsereDados implements Constantes {
 	public void inserirFAQDetalhe(FAQ faq) {
 		StringBuilder sql = new StringBuilder();
 		sql.append(INSERT_INTO);
-		sql.append(FAQ_FACULDADE_PAI);
+		sql.append(FAQ_FACULDADE_DETALHE);
 		sql.append(ABRE_PARENTESES);
 
 		sql.append(ID_PAI);
