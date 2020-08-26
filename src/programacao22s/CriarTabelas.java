@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-public class CriarTabelas {
+public class CriarTabelas implements Constantes  {
 	public static void main(String[] args) {
 		new CriarTabelas().processar();
 	}
@@ -33,22 +33,7 @@ public class CriarTabelas {
 
 	}
 
-	private static final String CREATE_TABLE_IF_NOT_EXISTS = " CREATE TABLE IF NOT EXISTS  ";
-	protected static final String FAQ_FACULDADE_PAI = " FAQ_FACULDADE_PAI ";
-	protected static final String FAQ_FACULDADE_DETALHE = " FAQ_FACULDADE_DETALHE ";
-	protected static final String ID_PAI = "ID_PAI";
-	protected static final String ID_DETALHE = "ID_DETALHE";
-	protected static final String DESC_ITEM = "DESC_ITEM";
-	protected static final String DESC_CONTEUDO_ALUNO = "DESC_CONTEUDO_ALUNO";
-
-	private static final String INT_NOT_NULL = " INT NOT NULL ";
-	private static final String TEXT_NOT_NULL = " TEXT NOT NULL ";
-	protected static final String VIRGULA = " , ";
-	protected static final String ABRE_PARENTESES = " ( ";
-	protected static final String FECHA_PARENTESES = " ) ";
-	private static final String PRIMARY_KEY = " PRIMARY KEY ";
-	private static final String FOREIGN_KEY = " FOREIGN KEY ";
-	private static final String REFERENCES = " REFERENCES ";
+	
 
 	public void criarTabelaFAQ() {
 		ConexaoBanco minhaConexao = new ConexaoBanco();
@@ -62,6 +47,10 @@ public class CriarTabelas {
 			sql.append(INT_NOT_NULL);
 			sql.append(VIRGULA);
 
+			sql.append(ID_DETALHE);
+			sql.append(INT_NOT_NULL);
+			sql.append(VIRGULA);
+			
 			sql.append(DESC_ITEM);
 			sql.append(TEXT_NOT_NULL);
 			sql.append(VIRGULA);
@@ -127,14 +116,14 @@ public class CriarTabelas {
 			sql.append(FAQ_FACULDADE_DETALHE);
 			sql.append(ABRE_PARENTESES);
 
-			sql.append(ID_DETALHE);
-			sql.append(INT_NOT_NULL);
-			sql.append(VIRGULA);
-
 			sql.append(ID_PAI);
 			sql.append(INT_NOT_NULL);
 			sql.append(VIRGULA);
 
+			sql.append(ID_DETALHE);
+			sql.append(INT_NOT_NULL);
+			sql.append(VIRGULA);
+			
 			sql.append(DESC_ITEM);
 			sql.append(TEXT_NOT_NULL);
 			sql.append(VIRGULA);
