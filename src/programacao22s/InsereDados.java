@@ -12,8 +12,8 @@ public class InsereDados implements Constantes {
 	}
 
 	private void processar() {
-//		FAQ f = new FAQ(0, 1, "Teste");
-//		inserirFAQ(f);
+		FAQ f = new FAQ(0, 1, "Teste");
+		inserirFAQ(f);
 		FAQ f2 = new FAQ(0, 1, "Teste","Conteudo Teste");
 		inserirFAQDetalhe(f2);
 
