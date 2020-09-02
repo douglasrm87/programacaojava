@@ -10,9 +10,10 @@ public interface Constantes {
 	public static final String INTERROGACAO = "?";
 	public static final String INSERT_INTO = " INSERT INTO ";
 	public static final String IGUAL_E_INTERROGACAO = " =? ";
-	public static final String WHERE = " WHERE ";
-	public static final String FROM = " FROM ";
+	
 	public static final String SELECT = " SELECT ";
+	public static final String FROM = " FROM ";
+	public static final String WHERE = " WHERE ";
 	
 	public static final String CREATE_TABLE_IF_NOT_EXISTS = " CREATE TABLE IF NOT EXISTS  ";
 	public static final String FAQ_FACULDADE_PAI = " FAQ_FACULDADE_PAI ";

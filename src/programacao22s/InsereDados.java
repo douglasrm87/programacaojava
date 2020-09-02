@@ -12,12 +12,20 @@ public class InsereDados implements Constantes {
 	}
 
 	private void processar() {
-		FAQ f = new FAQ(0, 1, "Teste");
+		FAQ f = new FAQ(0, 1, "Teste 1");
 		inserirFAQ(f);
-		FAQ f2 = new FAQ(0, 1, "Teste","Conteudo Teste");
-		inserirFAQDetalhe(f2);
+		f = new FAQ(0, 2, "Teste 2");
+		inserirFAQ(f);
+		f = new FAQ(0, 3, "Teste 3");
+		inserirFAQ(f);
 
-	}
+		FAQ f2 = new FAQ(1, 1, "Teste", "Conteudo Teste");
+		inserirFAQDetalhe(f2);
+		f2 = new FAQ(1, 2, "Teste", "Conteudo Teste");
+		inserirFAQDetalhe(f2);
+		f2 = new FAQ(1, 4, "Teste", "Conteudo Teste");
+		inserirFAQDetalhe(f2);
+}
 	// Inserir dados
 	// 1 - FAQ
 
