@@ -57,7 +57,7 @@ public class CriarTabelas implements Constantes  {
 
 			sql.append(PRIMARY_KEY);
 			sql.append(ABRE_PARENTESES);
-			sql.append(ID_PAI);
+			sql.append(ID_DETALHE);
 			sql.append(FECHA_PARENTESES);
 			sql.append(FECHA_PARENTESES);
 
@@ -143,13 +143,13 @@ public class CriarTabelas implements Constantes  {
 			//chave estrangeira
 			sql.append(FOREIGN_KEY);
 			sql.append(ABRE_PARENTESES);
-			sql.append(ID_PAI);
+			sql.append(ID_DETALHE);
 			sql.append(FECHA_PARENTESES);
 
 			sql.append(REFERENCES);
 			sql.append(FAQ_FACULDADE_PAI);
 			sql.append(ABRE_PARENTESES);
-			sql.append(ID_PAI);
+			sql.append(ID_DETALHE);
 			sql.append(FECHA_PARENTESES);
 			sql.append(FECHA_PARENTESES);
 

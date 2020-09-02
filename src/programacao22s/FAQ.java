@@ -8,6 +8,13 @@ public class FAQ {
 	private boolean possuiArquivo = false;
 	private String nomeArquivo = "";
 
+	@Override
+	public String toString() {
+		return "FAQ [idPai=" + this.idPai + ", idItem=" + this.idItem + ", descItem=" + this.descItem
+				+ ", conteudoAluno=" + this.conteudoAluno + ", possuiArquivo=" + this.possuiArquivo + ", nomeArquivo="
+				+ this.nomeArquivo + "]";
+	}
+
 	public int getIdPai() {
 		return this.idPai;
 	}
