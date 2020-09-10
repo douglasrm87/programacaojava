@@ -4,6 +4,11 @@ public final class Negocio {
 	private double preco;
 	private int quantidade;
 
+	@Override
+	public String toString() {
+		return "Negocio [preco=" + preco + ", quantidade=" + quantidade + "]" + " volume: " + getVolume();
+	}
+
 	public double getPreco() {
 		return preco;
 	}
