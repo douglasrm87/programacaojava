@@ -1,4 +1,4 @@
-package programacao22s;
+package programacao22s_jdbc;
 
 public class FAQ {
 	private int idPai;

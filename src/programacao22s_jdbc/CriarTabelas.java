@@ -1,4 +1,4 @@
-package programacao22s;
+package programacao22s_jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
