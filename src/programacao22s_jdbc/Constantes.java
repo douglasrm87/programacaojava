@@ -1,4 +1,4 @@
-package programacao22s;
+package programacao22s_jdbc;
 
 public interface Constantes {
 	public static final String REGISTRO_DUPLICADO = "23505";
