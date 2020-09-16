@@ -1,4 +1,4 @@
-package programacao22s.swing;
+package programacao22s.swing_01;
 
 public final class Negocio {
 	private double preco;

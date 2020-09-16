@@ -1,4 +1,4 @@
-package programacao22s.swing;
+package programacao22s.swing_01;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
