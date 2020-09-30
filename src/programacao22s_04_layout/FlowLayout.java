@@ -7,6 +7,7 @@ public class FlowLayout {
 		JButton b1 = new JButton("primeiro");
 		JButton b2 = new JButton("segundo");
 		JButton b3 = new JButton("terceiro");
+		
 	}
 
 }
