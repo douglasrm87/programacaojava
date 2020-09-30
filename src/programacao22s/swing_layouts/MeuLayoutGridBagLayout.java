@@ -1,24 +1,30 @@
-package programacao22s_04_layout;
+package programacao22s.swing_layouts;
 
 import java.awt.BorderLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.Panel;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class MeuLayoutBorderLayout2 {
+public class MeuLayoutGridBagLayout {
 	public static void main(String[] args) {
 		JButton b1 = new JButton("primeiro");
 		JButton b2 = new JButton("segundo");
 		JButton b3 = new JButton("terceiro");
 		
 		Panel p = new Panel();
-		BorderLayout bl = new BorderLayout(5,5);
+	 
+		GridBagConstraints cons = new GridBagConstraints();
+		GridBagLayout gb = new GridBagLayout();
+		
+		
  
-		p.setLayout(bl);
-		p.add(b1,BorderLayout.NORTH);
-		p.add(b2,BorderLayout.SOUTH);
-		p.add(b3,BorderLayout.EAST);
+		p.setLayout(gb);
+		p.add(b1,cons);
+		p.add(b2,cons);
+		p.add(b3,cons);
 		
 		JFrame quadro = new JFrame("Nome da minha tela");
 		
