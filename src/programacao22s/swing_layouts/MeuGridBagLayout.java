@@ -5,6 +5,7 @@ import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -19,28 +20,31 @@ public class MeuGridBagLayout {
 		cns.fill = GridBagConstraints.BOTH;
 
 		JFrame maFrame = new JFrame("Tela Principal"); 
-		// vai centralizar a abertura da janela
-		maFrame.setLocationRelativeTo(null); // centering frame
 		
-		JPanel headPanel = new JPanel(); // creating the header panel
-		headPanel.setBackground(Color.YELLOW);
+		// vai centralizar a abertura da janela
+		maFrame.setLocationRelativeTo(null); 
+		
+		JPanel amarelo = new JPanel(); // creating the header panel
+		amarelo.setBackground(Color.YELLOW);
 		
 		Container container = maFrame.getContentPane();
 		container.setLayout(new GridBagLayout()); // setting layout of main frame
-		container.add(headPanel, cns);
+		container.add(amarelo, cns);
 
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.BLUE);
+		JPanel azul = new JPanel();
+		azul.setBackground(Color.BLUE);
 		cns.gridx = 1;
 		cns.gridy = 0;
 		cns.weightx = 0.7;
 		cns.weighty = 0.7;
 		cns.anchor = GridBagConstraints.PAGE_START;
 		cns.fill = GridBagConstraints.BOTH;
-		container.add(panel, cns);
+		container.add(azul, cns);
 
-		JPanel panel1 = new JPanel();
-		panel1.setBackground(Color.RED);
+		JPanel vermelho = new JPanel();
+		JButton bv = new JButton("Botao painel vermelho");
+		vermelho.setBackground(Color.RED);
+		vermelho.add(bv);
 		cns.gridx = 0;
 		cns.gridy = 1;
 		cns.gridwidth = 2;
@@ -48,7 +52,7 @@ public class MeuGridBagLayout {
 		cns.weighty = 0.3;
 		cns.anchor = GridBagConstraints.LAST_LINE_START;
 		cns.fill = GridBagConstraints.BOTH;
-		container.add(panel1, cns);
+		container.add(vermelho, cns);
 
 		maFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		maFrame.pack();
