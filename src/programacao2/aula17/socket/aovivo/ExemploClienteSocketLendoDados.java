@@ -21,31 +21,21 @@ public class ExemploClienteSocketLendoDados {
 		String tHost;
 		int tPorta;
 
-		OutputStream tArq1 = null;
-		PrintWriter tArq2 = null;
-		InputStream tArq3 = null;
-		InputStreamReader tArq4 = null;
-		BufferedReader tArq5 = null;
 		String tLinha;
-
 		while (true) {
 			System.out.print("Digite um host : ");
 			tHost = sc.next();
 			if (tHost.equals("fim"))
 				break;
-
 			System.out.println("Digite o número da Porta(3000): ");
 			tPorta = sc.nextInt();
-			try (Socket tSocket = new Socket(tHost, tPorta);) {
-
+			try (Socket tSocket = new Socket(tHost, tPorta);
+					OutputStream tArq1 = tSocket.getOutputStream();
+					PrintWriter tArq2 = new PrintWriter(tArq1, true);
+					InputStream tArq3 = tSocket.getInputStream();
+					InputStreamReader tArq4 = new InputStreamReader(tArq3);
+					BufferedReader tArq5 = new BufferedReader(tArq4);) {
 				System.out.println("Conexão estabelecida.");
-
-				tArq1 = tSocket.getOutputStream();
-				tArq2 = new PrintWriter(tArq1, true);
-
-				tArq3 = tSocket.getInputStream();
-				tArq4 = new InputStreamReader(tArq3);
-				tArq5 = new BufferedReader(tArq4);
 
 				while (true) {
 					System.out.println(" Digite um texto: ");
@@ -54,17 +44,11 @@ public class ExemploClienteSocketLendoDados {
 						tArq2.println(tLinha);
 						break;
 					}
-
 					System.out.println("Enviando...|" + tLinha + "|");
 					tArq2.println(tLinha);
-
 					tLinha = tArq5.readLine();
 					System.out.println("Recebendo..|" + tLinha + "|");
-
 				}
-				tArq2.close();
-				tArq5.close();
-				tSocket.close();
 			} catch (UnknownHostException e) {
 				System.out.println("IP não encontrado.");
 				e.printStackTrace();
@@ -73,17 +57,5 @@ public class ExemploClienteSocketLendoDados {
 				e.printStackTrace();
 			}
 		}
-
-		if (tArq1 != null)
-			tArq1.close();
-		if (tArq2 != null)
-			tArq2.close();
-		if (tArq3 != null)
-			tArq3.close();
-		if (tArq4 != null)
-			tArq4.close();
-		if (tArq5 != null)
-			tArq5.close();
-
 	}
 }

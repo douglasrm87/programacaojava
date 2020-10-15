@@ -1,7 +1,7 @@
 package programacao22s_jdbc;
 
 public interface Constantes {
-	public static final String REGISTRO_DUPLICADO = "23505";
+	public static final String REGISTRO_DUPLICADO = "23505";//PostGree
 	public static final String SET = " SET ";
 	public static final String UPDATE = " UPDATE ";
 	public static final String VALUES = " VALUES ";
@@ -20,6 +20,7 @@ public interface Constantes {
 	public static final String FAQ_FACULDADE_DETALHE = " FAQ_FACULDADE_DETALHE ";
 	public static final String ID_PAI = "ID_PAI";
 	public static final String ID_DETALHE = "ID_DETALHE";
+	public static final String ID_DETALHE_PAI = "ID_DETALHE_PAI";
 	public static final String DESC_ITEM = "DESC_ITEM";
 	public static final String DESC_CONTEUDO_ALUNO = "DESC_CONTEUDO_ALUNO";
 
