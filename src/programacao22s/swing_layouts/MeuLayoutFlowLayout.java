@@ -11,8 +11,7 @@ public class MeuLayoutFlowLayout {
 		JButton b1 = new JButton("primeiro");
 		JButton b2 = new JButton("segundo");
 		JButton b3 = new JButton("terceiro");
-		
-		
+
 		Panel p = new Panel();
 		p.add(b1);
 		p.add(b2);
@@ -23,18 +22,9 @@ public class MeuLayoutFlowLayout {
 		
 		JFrame quadro = new JFrame("Nome da minha tela");
 		
-		
-		
-		
 		quadro.add(p);
 		quadro.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		quadro.pack();
 		quadro.setVisible(true);
-		
-		
-		
-		
-		
 	}
-
 }
