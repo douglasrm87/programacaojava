@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class TempoBRAS {
+	private static final int _5000 = 8000;
 	List<BaseContratos> listabase = new ArrayList<BaseContratos>();
 
 	public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class TempoBRAS {
 	}
 
 	private void processar() {
-		List<BaseContratos> listaCarregada = carregarBase();
+		carregarBase();
 		System.out.println("1 - Identificar BRAS.");
 		Scanner leia = new Scanner(System.in);
 		System.out.println("Digite seu contrato");
@@ -23,66 +24,65 @@ public class TempoBRAS {
 		leia.close();
 	}
 
-	private List<BaseContratos> carregarBase() {
+	private void carregarBase() {
 
 		BaseContratos b = new BaseContratos(12345, 1);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(656565, 1);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(444222, 1);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(111222, 2);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(567890, 2);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(111111, 3);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(000111, 3);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(5656, 4);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(6565, 4);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(5353, 5);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(5555, 5);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(6666, 6);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(666667, 6);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(7777, 7);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(77778, 7);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(8888, 8);
-		listabase.add(b);
+		this.listabase.add(b);
 
 		b = new BaseContratos(88889, 8);
-		listabase.add(b);
-		return listabase;
+		this.listabase.add(b);
 	}
 
 	private String validarLogin(int contrato) {
 		int idBras = 0;
-		for (int i = 0; i < listabase.size(); i++) {
-			if (listabase.get(i).getContrato() == contrato) {
-				idBras = listabase.get(i).getCdBras();
+		for (int i = 0; i < this.listabase.size(); i++) {
+			if (this.listabase.get(i).getContrato() == contrato) {
+				idBras = this.listabase.get(i).getCdBras();
 				break;
 			}
 		}
@@ -112,7 +112,7 @@ public class TempoBRAS {
 	private boolean validarBras01(int idBras) {
 		System.out.println("Entrei no BRAS1");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -128,7 +128,7 @@ public class TempoBRAS {
 	private boolean validarBras02(int idBras) {
 		System.out.println("Entrei no BRAS2");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -144,7 +144,7 @@ public class TempoBRAS {
 	private boolean validarBras03(int idBras) {
 		System.out.println("Entrei no BRAS3");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -160,7 +160,7 @@ public class TempoBRAS {
 	private boolean validarBras04(int idBras) {
 		System.out.println("Entrei no BRAS4");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -176,7 +176,7 @@ public class TempoBRAS {
 	private boolean validarBras05(int idBras) {
 		System.out.println("Entrei no BRAS5");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -192,7 +192,7 @@ public class TempoBRAS {
 	private boolean validarBras06(int idBras) {
 		System.out.println("Entrei no BRAS6");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -208,7 +208,7 @@ public class TempoBRAS {
 	private boolean validarBras07(int idBras) {
 		System.out.println("Entrei no BRAS7");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -224,7 +224,7 @@ public class TempoBRAS {
 	private boolean validarBras08(int idBras) {
 		System.out.println("Entrei no BRAS8");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
