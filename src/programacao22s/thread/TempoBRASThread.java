@@ -124,8 +124,8 @@ public class TempoBRASThread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-		} while (bThread1.isFim() || bThread2.isFim() || bThread3.isFim() || bThread4.isFim() || bThread5.isFim()
-				|| bThread6.isFim() || bThread7.isFim() || bThread8.isFim());
+		} while (!bThread1.isFim() && !bThread2.isFim() && !bThread3.isFim() && !bThread4.isFim() && !bThread5.isFim()
+				&& !bThread6.isFim() && !bThread7.isFim() && !bThread8.isFim());
 
 		if (bThread1.isRet()) {
 			return "primeiro BRAS";
