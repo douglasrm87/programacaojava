@@ -26,7 +26,7 @@ public class BRASThread3 extends Thread {
 		System.out.println("saindo do BRAS3");
 		this.fim = true;
 		switch (this.idBras) {
-		case 1:
+		case 3:
 			this.ret = true;
 			return;
 		}
