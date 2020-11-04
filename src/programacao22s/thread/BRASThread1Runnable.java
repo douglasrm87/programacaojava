@@ -1,6 +1,6 @@
 package programacao22s.thread;
 
-public class BRASThread1 extends Thread {
+public class BRASThread1Runnable implements Runnable {
 	private static final int _5000 = 8000;
 	private int idBras = 0;
 	private boolean ret = false;
@@ -12,9 +12,7 @@ public class BRASThread1 extends Thread {
 		validarBras01();
 	}
 
-	public BRASThread1(int idBras) {
-		super();
-		this.idBras = idBras;
+	public BRASThread1Runnable() {
 	}
 
 	// equipamento 01
@@ -27,14 +25,14 @@ public class BRASThread1 extends Thread {
 		}
 		System.out.println("saindo do BRAS1");
 		this.fim = true;
-		
+
 		switch (this.idBras) {
 		case 1:
 			this.ret = true;
 			return;
 		}
 		this.ret = false;
-		
+
 	}
 
 	public boolean isRet() {
