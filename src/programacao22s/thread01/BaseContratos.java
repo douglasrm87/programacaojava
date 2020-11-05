@@ -1,4 +1,4 @@
-package programacao22s.thread;
+package programacao22s.thread01;
 
 public class BaseContratos {
 	private int contrato;

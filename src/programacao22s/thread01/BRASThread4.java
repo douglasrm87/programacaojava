@@ -1,32 +1,32 @@
-package programacao22s.thread;
+package programacao22s.thread01;
 
-public class BRASThread7 extends Thread {
+public class BRASThread4 extends Thread {
 	private static final int _5000 = 8000;
 	private int idBras = 0;
 	private boolean ret = false;
 	private boolean fim = false;
 
 	public void run() {
-		validarBras07();
+		validarBras04();
 	}
 
-	public BRASThread7(int idBras) {
+	public BRASThread4(int idBras) {
 		super();
 		this.idBras = idBras;
 	}
 
 	// equipamento 01
-	private void validarBras07() {
-		System.out.println("Entrei no BRAS7");
+	private void validarBras04() {
+		System.out.println("Entrei no BRAS4");
 		try {
 			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println("saindo do BRAS7");
+		System.out.println("saindo do BRAS4");
 		this.fim = true;
 		switch (this.idBras) {
-		case 7:
+		case 4:
 			this.ret = true;
 			return;
 		}

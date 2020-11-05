@@ -1,30 +1,32 @@
-package programacao22s.thread;
+package programacao22s.thread01;
 
-public class BRASThread2Ruunable implements Runnable {
+public class BRASThread7 extends Thread {
 	private static final int _5000 = 8000;
 	private int idBras = 0;
 	private boolean ret = false;
 	private boolean fim = false;
 
 	public void run() {
-		validarBras02();
+		validarBras07();
 	}
 
-	public BRASThread2Ruunable() {
+	public BRASThread7(int idBras) {
+		super();
+		this.idBras = idBras;
 	}
 
 	// equipamento 01
-	private void validarBras02() {
-		System.out.println("Entrei no BRAS2");
+	private void validarBras07() {
+		System.out.println("Entrei no BRAS7");
 		try {
 			Thread.sleep(_5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println("saindo do BRAS2");
+		System.out.println("saindo do BRAS7");
 		this.fim = true;
 		switch (this.idBras) {
-		case 2:
+		case 7:
 			this.ret = true;
 			return;
 		}

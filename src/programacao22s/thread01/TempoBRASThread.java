@@ -1,14 +1,14 @@
-package programacao22s.thread;
+package programacao22s.thread01;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class TempoBRASThreadRunnable {
+public class TempoBRASThread {
 	List<BaseContratos> listabase = new ArrayList<BaseContratos>();
 
 	public static void main(String[] args) {
-		new TempoBRASThreadRunnable().processar();
+		new TempoBRASThread().processar();
 	}
 
 	private void processar() {
@@ -88,19 +88,18 @@ public class TempoBRASThreadRunnable {
 
 		// estas linhas precisam mudar.
 		// vamos usar Thrads neste ponto do programa.
-		BRASThread1Runnable bThread1 = new BRASThread1Runnable();
-		BRASThread2Ruunable bThread2 = new BRASThread2Ruunable();
+		BRASThread1 bThread1;
+		BRASThread2 bThread2;
 		BRASThread3 bThread3;
 		BRASThread4 bThread4;
 		BRASThread5 bThread5;
 		BRASThread6 bThread6;
 		BRASThread7 bThread7;
 		BRASThread8 bThread8;
-
-		Thread bras1 = new Thread(bThread1);
-		Thread bras2 = new Thread(bThread2);
-		bras1.start(); // vai demorar pelo menos 8 segundos
-		bras2.start(); // vai demorar pelo menos 8 segundos
+		bThread1 = new BRASThread1(idBras);
+		bThread1.start(); // vai demorar pelo menos 8 segundos
+		bThread2 = new BRASThread2(idBras);
+		bThread2.start(); // vai demorar pelo menos 8 segundos
 		bThread3 = new BRASThread3(idBras);
 		bThread3.start(); // vai demorar pelo menos 8 segundos
 
