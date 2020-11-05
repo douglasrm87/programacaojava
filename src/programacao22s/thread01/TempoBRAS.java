@@ -1,4 +1,4 @@
-package programacao22s.thread;
+package programacao22s.thread01;
 
 import java.util.ArrayList;
 import java.util.List;
