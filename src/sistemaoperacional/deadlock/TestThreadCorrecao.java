@@ -25,7 +25,7 @@ public class TestThreadCorrecao {
 		               System.out.println("Thread 1: Holding lock 1 & 2...");
 		            }
 		         }
-		      }
+		      }   
 		   }
 		   private static class ThreadDemo2 extends Thread {
 		      public void run() {
