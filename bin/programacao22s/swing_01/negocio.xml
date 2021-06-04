@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<negocio>
+		<preco>43.5</preco>
+		<quantidade>1000</quantidade>
+	</negocio>
+	<negocio>
+		<preco>12.5</preco>
+		<quantidade>22200</quantidade>
+	</negocio>
+	<negocio>
+		<preco>4225</preco>
+		<quantidade>33300</quantidade>
+	</negocio>
+	<negocio>
+		<preco>4445</preco>
+		<quantidade>4440</quantidade>
+	</negocio>
+	<negocio>
+		<preco>5555</preco>
+		<quantidade>5550</quantidade>
+	</negocio>
+</list>

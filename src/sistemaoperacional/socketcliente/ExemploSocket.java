@@ -18,7 +18,7 @@ public class ExemploSocket {
 	{
 		String 		tHost;
 		int 			tPorta;
-		Socket          tSocket;
+		
 		Scanner sc = new Scanner (System.in).useDelimiter("\r\n");
 		while(true){
 			// Modo de uso: www.google.com.br
@@ -29,8 +29,8 @@ public class ExemploSocket {
 			// Modo de uso: 80
 			System.out.println("Digite o número da porta : ");
 			tPorta = sc.nextInt();		
-			try	{
-				tSocket = new Socket(tHost, tPorta);
+			try (Socket tSocket = new Socket(tHost, tPorta);)	{
+				
 				System.out.println("Conexão estabelecida.");
 				System.out.println("Porta Local: " + tSocket.getLocalPort());
 				System.out.println("Porta Remota: " + tSocket.getPort());
@@ -51,6 +51,7 @@ public class ExemploSocket {
 				e.printStackTrace();
 			}
 		}
+		sc.close();
 	}
 }
 

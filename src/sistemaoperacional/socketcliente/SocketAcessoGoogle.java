@@ -32,8 +32,7 @@ public class SocketAcessoGoogle {
 				System.out.println("Keep Alive? " + tSocket.getKeepAlive());
 				System.out.println("Local Address: " + tSocket.getLocalAddress());
 				System.out.println("InetAddress: " + tSocket.getInetAddress());
-				tSocket.close();
-				sc.close();
+
 			} catch (UnknownHostException e) {
 				System.out.println("IP não encontrado.");
 				e.printStackTrace();

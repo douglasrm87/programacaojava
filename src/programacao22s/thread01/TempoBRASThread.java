@@ -1,6 +1,7 @@
 package programacao22s.thread01;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -12,6 +13,8 @@ public class TempoBRASThread {
 	}
 
 	private void processar() {
+		Date tempo = new Date();
+		System.out.println(tempo);
 		carregarBase();
 		System.out.println("1 - Identificar BRAS.");
 		Scanner leia = new Scanner(System.in);
@@ -19,12 +22,11 @@ public class TempoBRASThread {
 		int contrato = leia.nextInt();
 		String ret = validarLogin(contrato);
 		System.out.println("Bras Logado: " + ret);
-
 		leia.close();
+		tempo = new Date();
+		System.out.println(tempo);
 	}
-
 	private void carregarBase() {
-
 		BaseContratos b = new BaseContratos(12345, 1);
 		this.listabase.add(b);
 

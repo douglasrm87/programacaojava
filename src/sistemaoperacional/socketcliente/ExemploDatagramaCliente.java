@@ -27,7 +27,7 @@ public class ExemploDatagramaCliente {
 	public static void main(String[] args) {
 		String tHost;
 		String tLinha;
-		DatagramSocket tServidor;
+		
 		byte[] tBuffer;
 		InetAddress tEndereco;
 		DatagramPacket tPacote;
@@ -37,8 +37,8 @@ public class ExemploDatagramaCliente {
 			tHost = sc.next();
 			if (tHost.equals("fim"))
 				break;
-			try {
-				tServidor = new DatagramSocket();
+			try (DatagramSocket tServidor = new DatagramSocket();) {
+				
 				tEndereco = InetAddress.getByName(tHost);
 				while (true) {
 					System.out.println("Entre com o texto : ");
@@ -62,5 +62,6 @@ public class ExemploDatagramaCliente {
 				e.printStackTrace();
 			}
 		}
+		sc.close();
 	}
 }

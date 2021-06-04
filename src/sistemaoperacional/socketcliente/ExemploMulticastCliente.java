@@ -15,20 +15,15 @@ import java.net.UnknownHostException;
 public class ExemploMulticastCliente {
 	public static void main(String[] args) {
 		String tLinha;
-		MulticastSocket tServidor;
+		
 		byte[] tBuffer;
 		InetAddress tEndereco;
 		DatagramPacket tPacote;
 
-		try {
-			tServidor = new MulticastSocket(6000);
-
+		try (MulticastSocket tServidor = new MulticastSocket(6000);){
 			tEndereco = InetAddress.getByName("230.0.0.1");
-
 			tServidor.joinGroup(tEndereco);
-
 			tBuffer = new byte[50];
-
 			while (true) {
 				tPacote = new DatagramPacket(tBuffer, tBuffer.length);
 				tServidor.receive(tPacote);
