@@ -1,19 +1,21 @@
 package sistemaoperacional.socketservidor;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+
 public class ExemploDatagramaServidor {
 	public static void main(String[] args) {
-		DatagramSocket tSocket;
+
 		DatagramPacket tPacote;
 		byte[] tBuffer;
 		String tTexto;
 		InetAddress tEndereco;
 		int tPorta;
-		try {
-			// porta 6000
-			tSocket = new DatagramSocket(6000);
+		try (// porta 6000
+				DatagramSocket tSocket = new DatagramSocket(6000);) {
+
 			tBuffer = new byte[1024];
 			while (true) {
 				tPacote = new DatagramPacket(tBuffer, tBuffer.length);
@@ -26,7 +28,7 @@ public class ExemploDatagramaServidor {
 					break;
 				tEndereco = tPacote.getAddress();
 				tPorta = tPacote.getPort();
-				tPacote = new DatagramPacket(tBuffer, tBuffer.length,tEndereco, tPorta);
+				tPacote = new DatagramPacket(tBuffer, tBuffer.length, tEndereco, tPorta);
 				System.out.println("Mensagem Enviada para o cliente.");
 				tSocket.send(tPacote);
 			}
@@ -36,4 +38,3 @@ public class ExemploDatagramaServidor {
 		}
 	}
 }
-

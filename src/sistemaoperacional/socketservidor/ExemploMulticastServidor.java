@@ -16,7 +16,7 @@ import java.util.Date;
 //Este servidor fica constantemente enviando noticias. Os clientes passam a recebê-la após serem inicializados.
 public class ExemploMulticastServidor {
 	public static void main(String[] args) {
-		DatagramSocket tSocket;
+		
 		DatagramPacket tPacote;
 		byte[] tBuffer;
 		String tTexto;
@@ -26,8 +26,8 @@ public class ExemploMulticastServidor {
 		tFormat = DateFormat.getDateTimeInstance(DateFormat.LONG,
 				DateFormat.MEDIUM);
 
-		try {
-			tSocket = new DatagramSocket(6000);
+		try (DatagramSocket tSocket = new DatagramSocket(6000);){
+			
 
 			tEndereco = InetAddress.getByName("230.0.0.1");
 

@@ -1,6 +1,7 @@
 package programacao22s.thread01;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,6 +14,9 @@ public class TempoBRAS {
 	}
 
 	private void processar() {
+		Date tempo = new Date();
+		System.out.println(tempo);
+
 		carregarBase();
 		System.out.println("1 - Identificar BRAS.");
 		Scanner leia = new Scanner(System.in);
@@ -22,6 +26,9 @@ public class TempoBRAS {
 		System.out.println("Bras Logado: " + ret);
 
 		leia.close();
+		tempo = new Date();
+		System.out.println(tempo);
+
 	}
 
 	private void carregarBase() {
