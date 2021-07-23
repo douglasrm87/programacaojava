@@ -14,7 +14,7 @@ public class TestThread {
 	private static class ThreadDemo1 extends Thread {
 		public void run() {
 			// regiao critica - Todo codigo sera executado de forma atomica.
-			synchronized (Lock1) {
+			synchronized (Lock1) { // equivale ao begin transation
 				System.out.println("Thread 1: Holding lock 1...");
 
 				try {
