@@ -5,7 +5,7 @@ import java.io.Serializable;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
-@ManagedBean
+@ManagedBean 
 @ViewScoped
 public class MenuPrincipal implements Serializable {
 	private static final long serialVersionUID = 1094801825228386363L;
