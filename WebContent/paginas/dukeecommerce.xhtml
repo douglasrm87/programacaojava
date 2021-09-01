@@ -1,0 +1,56 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui" xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+	<h:outputStylesheet name="estilos.css" library="css" />
+</h:head>
+<h:body>
+		<p:messages id="messages" showDetail="true" closable="true">
+			<p:autoUpdate />
+		</p:messages>
+
+	<h:form id="loginprime">
+		<h:panelGrid style="width:100%; height:100%;" columns="2">
+			<h:form>
+				<p:panel id="painellogin" header="Informe seus dados para o Login"
+					style="width:550px; margin-left:auto; margin-right:auto;">
+					<h1>Duke e-commerce</h1>
+					<h2>Bem vindo(a) ao Projeto Integrador</h2>
+					<h2>Por favor escolha o que deseja comprar</h2>
+					<br></br>
+					<p:panelGrid columns="1" styleClass="semBorda">
+						<p:commandButton value="Adicionar Calça"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarCalca()}">
+						</p:commandButton>
+						<p:commandButton value="Adicionar Camisa"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarCamisa()}">
+						</p:commandButton>
+						<p:commandButton value="Adicionar Cinto"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarCinto()}">
+						</p:commandButton>
+						<p:commandButton value="Adicionar Sapato"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarSapato()}">
+						</p:commandButton>
+						<p:commandButton value="Adicionar Underwear"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarUnderWear()}">
+						</p:commandButton>
+						<p:commandButton value="Adicionar Meia"
+							icon="ui-icon-circle-check" style="padding: 20px;width:220"
+							update="@form" action="#{menuPrincipal.adicionarMeia()}">
+						</p:commandButton>
+					</p:panelGrid>
+
+				</p:panel>
+			</h:form>
+
+		</h:panelGrid>
+	</h:form>
+</h:body>
+</html>
