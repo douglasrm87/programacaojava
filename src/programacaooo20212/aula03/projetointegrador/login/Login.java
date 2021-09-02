@@ -15,7 +15,7 @@ public class Login implements Serializable {
 	private static final long serialVersionUID = 1094801825228386363L;
 	private String cpfUsuario;
 	private String senha; 
-	   
+	    
 	private final static int LOGIN_OK = 0;
  
 	public void logar() {
