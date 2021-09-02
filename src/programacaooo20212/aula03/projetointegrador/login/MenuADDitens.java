@@ -1,4 +1,4 @@
-package programacaooo20212.aula02.projetointegrador.login;
+package programacaooo20212.aula03.projetointegrador.login;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import javax.faces.bean.ViewScoped;
 
 @ManagedBean 
 @ViewScoped
-public class MenuPrincipal implements Serializable {
+public class MenuADDitens implements Serializable {
 	private static final long serialVersionUID = 1094801825228386363L;
     
 	public void adicionarCalca() {
