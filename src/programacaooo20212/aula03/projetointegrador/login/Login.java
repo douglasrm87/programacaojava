@@ -11,6 +11,7 @@ import javax.faces.context.FacesContext;
   
 @ManagedBean
 @ViewScoped
+//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
 public class Login implements Serializable {
 	private static final long serialVersionUID = 1094801825228386363L;
 	private String cpfUsuario;
