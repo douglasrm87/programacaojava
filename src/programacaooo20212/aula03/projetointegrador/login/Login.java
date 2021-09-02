@@ -8,7 +8,7 @@ import javax.faces.application.NavigationHandler;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
-
+ 
 @ManagedBean
 @ViewScoped
 public class Login implements Serializable {
