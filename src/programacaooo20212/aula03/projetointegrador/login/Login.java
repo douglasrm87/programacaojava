@@ -18,7 +18,7 @@ public class Login implements Serializable {
 	private String senha; 
 	      
 	private final static int LOGIN_OK = 0;
- 
+  
 	public void logar() {
 		System.out.println("usuario:" + cpfUsuario);
 		System.out.println("senha:" + senha);
