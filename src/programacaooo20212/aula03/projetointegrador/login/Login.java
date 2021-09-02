@@ -8,7 +8,7 @@ import javax.faces.application.NavigationHandler;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
-  
+   
 @ManagedBean
 @ViewScoped
 //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
