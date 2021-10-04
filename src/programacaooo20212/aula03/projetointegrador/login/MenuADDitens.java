@@ -9,7 +9,7 @@ import javax.faces.bean.ViewScoped;
 @ViewScoped
 public class MenuADDitens implements Serializable {
 	private static final long serialVersionUID = 1094801825228386363L;
-    
+      
 	public void adicionarCalca() {
 		System.out.println("Escolhido adicionar Calça");
 	}
