@@ -1,14 +1,11 @@
 package programacao2.aula14.jdbc.aovivo;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
 public class Conexao {
 	public static void main(String[] args) {
 		new Conexao().testarConexao();
 	}
-
 	public void testarConexao() {
 		Connection c = conectarPostGree();
 		if (c != null) {
@@ -21,9 +18,7 @@ public class Conexao {
 		} else {
 			System.out.println("problemas na conexão.");
 		}
-
 	}
-
 	public Connection conectarPostGree() {
 		System.out.println("Ola minha primeira conexão.");
 		try {
