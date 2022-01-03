@@ -6,7 +6,7 @@ public class Conexao {
 	public static void main(String[] args) {
 		new Conexao().testarConexao();
 	}    
-	
+	 
 	public void testarConexao() {
 		Connection c = conectarPostGree();
 		if (c != null) {
