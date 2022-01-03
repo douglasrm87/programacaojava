@@ -1,4 +1,4 @@
-package programacaooo20212.aula8bd;
+package programacaooo20212.aula9bd;
  
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,9 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Conexao {
+public class MinhaConexao {
 	public static void main(String[] args) {
-		Conexao x = new Conexao();
+		MinhaConexao x = new MinhaConexao();
 		try (Connection con = x.conectar();) {
 			// x.criartabela(con);
 			// x.inserirDadostabela(con);
