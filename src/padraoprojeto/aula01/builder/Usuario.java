@@ -1,4 +1,4 @@
-package padraoprojeto.aula01;
+package padraoprojeto.aula01.builder;
 public class Usuario {
 	private String nome;
 	private String sobreNome;
