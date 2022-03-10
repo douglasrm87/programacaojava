@@ -11,6 +11,8 @@ public class ClienteTradicional {
 		palio.exibirInfo();
 		Carro fiesta = fc.criarCarro(ModeloCarro.fiesta);
 		fiesta.exibirInfo();
+		Carro fusca = fc.criarCarro(ModeloCarro.fusca);
+		fusca.exibirInfo();
 
 	}
 }

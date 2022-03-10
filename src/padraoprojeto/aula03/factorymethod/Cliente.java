@@ -1,7 +1,9 @@
 package padraoprojeto.aula03.factorymethod;
 public class Cliente {
 	public static void main(String[] args) {
-		FabricaDeCarro fabrica = new FabricaFiat();
+		FabricaDeCarro fabrica = null; 
+		
+		fabrica = new FabricaFiat();;
 		Carro carro = fabrica.criarCarro();
 		carro.exibirInfo();
 		System.out.println();
@@ -17,6 +19,11 @@ public class Cliente {
 		System.out.println();
 
 		fabrica = new FabricaCelta();
+		carro = fabrica.criarCarro();
+		carro.exibirInfo();
+		System.out.println();
+		
+		fabrica = new FabricaFusca();
 		carro = fabrica.criarCarro();
 		carro.exibirInfo();
 	}

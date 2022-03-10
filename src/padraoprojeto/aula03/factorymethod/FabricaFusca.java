@@ -1,7 +1,7 @@
 package padraoprojeto.aula03.factorymethod;
-public class FabricaFiesta implements FabricaDeCarro {
+public class FabricaFusca implements FabricaDeCarro {
 	@Override
 	public Carro criarCarro() {
-		return new Fiesta();
+		return new Fusca();
 	}
 }

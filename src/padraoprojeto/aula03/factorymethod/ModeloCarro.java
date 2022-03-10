@@ -1,5 +1,5 @@
 package padraoprojeto.aula03.factorymethod;
 
 public enum ModeloCarro {
-	palio,gol, celta, fiesta  
+	palio, gol, celta, fiesta , fusca
 }

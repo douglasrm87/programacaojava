@@ -11,6 +11,8 @@ public class FabricaCarro {
             return new Gol();
         case palio:
             return new Palio();
+        case fusca:
+            return new Fusca();
         default:
             break;
         }
