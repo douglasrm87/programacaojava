@@ -3,7 +3,7 @@ package padraoprojeto.aula04.bridge.gadget;
 public class BasicRemote implements Remote {
     protected Device device;
 
-    public BasicRemote() {}
+//    public BasicRemote() {}
 
     public BasicRemote(Device device) {
         this.device = device;
