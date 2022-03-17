@@ -10,7 +10,7 @@ public class IntroducaoJogoPrincipalGenius {
 
 	protected static final int _1000 = 200;
 	private static JToggleButton botaoVerde;// referencia de objeto
-	private static JToggleButton botaoAzul;// referencia de objeto
+public static JToggleButton botaoAzul;// referencia de objeto
 	private static JToggleButton botaoVermelho;// referencia de objeto
 	private static JToggleButton botaoLaranja;// referencia de objeto
 

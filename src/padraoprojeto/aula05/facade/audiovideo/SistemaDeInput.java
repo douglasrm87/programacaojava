@@ -10,6 +10,6 @@ public class SistemaDeInput {
 	}
 
 	public void lerInput() {
-		System.out.println("Bot√£o # pressionada");
+		System.out.println("Bot„o 3 pressionada");
 	}
 }

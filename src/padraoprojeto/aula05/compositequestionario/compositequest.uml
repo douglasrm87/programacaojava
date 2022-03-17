@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_GhJF4KPGEeyVO-s55lPFQg" name="compositequest">
+    <eAnnotations xmi:id="_O_EUcKPGEeyVO-s55lPFQg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_O_EUcaPGEeyVO-s55lPFQg" source="codegen">
+        <details xmi:id="_O_EUcqPGEeyVO-s55lPFQg" key="codegenDirectory" value="/programacaojava/src"/>
+        <details xmi:id="_PDVwcKPGEeyVO-s55lPFQg" key="AssociatedSourceCode" value="/programacaojava/src/padraoprojeto/aula05/compositequestionario/Questao.java;2391232047/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Bloco.java;872248016/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/ElementoDoQuestionario.java;3541216091/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Principal.java;409999243/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_O_EUc6PGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUdKPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUdaPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUdqPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUd6PGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUeKPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUeaPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUeqPGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_O_EUe6PGEeyVO-s55lPFQg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_O-wycKPGEeyVO-s55lPFQg" name="padraoprojeto">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O-wycaPGEeyVO-s55lPFQg" name="aula05">
+        <packagedElement xmi:type="uml:Package" xmi:id="_O-6jcKPGEeyVO-s55lPFQg" name="compositequestionario">
+          <packagedElement xmi:type="uml:Class" xmi:id="_O-6jcaPGEeyVO-s55lPFQg" name="Questao">
+            <generalization xmi:id="_PAJSgqPGEeyVO-s55lPFQg" general="_PAJSgKPGEeyVO-s55lPFQg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PAQnQKPGEeyVO-s55lPFQg" name="Questao" specification="_O_EUfKPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_PAQnQaPGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_PAQnQqPGEeyVO-s55lPFQg" type="_O-6jcaPGEeyVO-s55lPFQg" direction="return"/>
+              <language>java</language>
+              <body>super(descricao);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PAQnQ6PGEeyVO-s55lPFQg" name="exibir" specification="_O_MQQ6PGEeyVO-s55lPFQg">
+              <language>java</language>
+              <body>System.out.println(&quot;	Questão: &quot;+descricao);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_O_EUfKPGEeyVO-s55lPFQg" name="Questao" method="_PAQnQKPGEeyVO-s55lPFQg">
+              <eAnnotations xmi:id="_O_MQQKPGEeyVO-s55lPFQg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_O_MQQaPGEeyVO-s55lPFQg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_O_EUfaPGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_O_MQQqPGEeyVO-s55lPFQg" type="_O-6jcaPGEeyVO-s55lPFQg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_O_MQQ6PGEeyVO-s55lPFQg" name="exibir" method="_PAQnQ6PGEeyVO-s55lPFQg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_PAJSgKPGEeyVO-s55lPFQg" name="ElementoDoQuestionario" isAbstract="true">
+            <ownedAttribute xmi:id="_RhVc7aPGEeyVO-s55lPFQg" name="descricao" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem2aPGEeyVO-s55lPFQg" name="ElementoDoQuestionario" specification="_RhLr5qPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_Rhem2qPGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Rhem26PGEeyVO-s55lPFQg" type="_PAJSgKPGEeyVO-s55lPFQg" direction="return"/>
+              <language>java</language>
+              <body>this.descricao = descricao;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_RhLr5qPGEeyVO-s55lPFQg" name="ElementoDoQuestionario" visibility="protected" method="_Rhem2aPGEeyVO-s55lPFQg">
+              <eAnnotations xmi:id="_RhLr6KPGEeyVO-s55lPFQg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_RhLr6aPGEeyVO-s55lPFQg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_RhLr56PGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RhLr6qPGEeyVO-s55lPFQg" type="_PAJSgKPGEeyVO-s55lPFQg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RhLr66PGEeyVO-s55lPFQg" name="exibir" isAbstract="true"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RhBT0qPGEeyVO-s55lPFQg" name="Bloco">
+            <generalization xmi:id="_RhVc6KPGEeyVO-s55lPFQg" general="_PAJSgKPGEeyVO-s55lPFQg"/>
+            <ownedAttribute xmi:id="_RhVc6aPGEeyVO-s55lPFQg" name="elementos" visibility="private" type="_PAJSgKPGEeyVO-s55lPFQg" isOrdered="true" association="_Rhem36PGEeyVO-s55lPFQg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RhVc6qPGEeyVO-s55lPFQg" value="*"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RhVc66PGEeyVO-s55lPFQg" value="new ArrayList&lt;ElementoDoQuestionario>()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem0aPGEeyVO-s55lPFQg" name="Bloco" specification="_RhLE0KPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_Rhem0qPGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Rhem06PGEeyVO-s55lPFQg" type="_RhBT0qPGEeyVO-s55lPFQg" direction="return"/>
+              <language>java</language>
+              <body>super(descricao);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem1KPGEeyVO-s55lPFQg" name="adicionar" specification="_RhVc5KPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_Rhem1aPGEeyVO-s55lPFQg" name="item" type="_PAJSgKPGEeyVO-s55lPFQg"/>
+              <language>java</language>
+              <body>elementos.add(item);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem1qPGEeyVO-s55lPFQg" name="remover" specification="_RhVc5qPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_Rhem16PGEeyVO-s55lPFQg" name="item" type="_PAJSgKPGEeyVO-s55lPFQg"/>
+              <language>java</language>
+              <body>elementos.remove(item);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem2KPGEeyVO-s55lPFQg" name="exibir" specification="_RhLr4qPGEeyVO-s55lPFQg">
+              <language>java</language>
+              <body>System.out.println(&quot;Bloco: &quot; + descricao);&#xD;
+		for (ElementoDoQuestionario item : elementos) {&#xD;
+			item.exibir();&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_RhLE0KPGEeyVO-s55lPFQg" name="Bloco" method="_Rhem0aPGEeyVO-s55lPFQg">
+              <eAnnotations xmi:id="_RhLE0qPGEeyVO-s55lPFQg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_RhLr4KPGEeyVO-s55lPFQg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_RhLE0aPGEeyVO-s55lPFQg" name="descricao">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RhLr4aPGEeyVO-s55lPFQg" type="_RhBT0qPGEeyVO-s55lPFQg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RhLr4qPGEeyVO-s55lPFQg" name="exibir" method="_Rhem2KPGEeyVO-s55lPFQg"/>
+            <ownedOperation xmi:id="_RhVc5KPGEeyVO-s55lPFQg" name="adicionar" method="_Rhem1KPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_RhVc5aPGEeyVO-s55lPFQg" name="item" type="_PAJSgKPGEeyVO-s55lPFQg"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RhVc5qPGEeyVO-s55lPFQg" name="remover" method="_Rhem1qPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_RhVc56PGEeyVO-s55lPFQg" name="item" type="_PAJSgKPGEeyVO-s55lPFQg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RhLr7KPGEeyVO-s55lPFQg" name="Principal">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem3KPGEeyVO-s55lPFQg" name="main" specification="_RhLr7aPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_Rhem3aPGEeyVO-s55lPFQg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Rhem3qPGEeyVO-s55lPFQg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Bloco blocoQuestaoA = new Bloco(&quot;A) Padrão de Projetos&quot;);&#xD;
+		Questao q1 = new Questao(&quot;Q1- Qual sua experiência com Patterns?&quot;);&#xD;
+		Questao q2 = new Questao(&quot;Q2- Usou o padrão Composite?&quot;);&#xD;
+		Questao q3 = new Questao(&quot;Q3- Já utilizou o padrão Proxy?&quot;);&#xD;
+		blocoQuestaoA.adicionar(q1);&#xD;
+		blocoQuestaoA.adicionar(q2);&#xD;
+		blocoQuestaoA.adicionar(q3);&#xD;
+&#xD;
+		Bloco blocoQuestaoB = new Bloco(&quot;B) Patterns Estrutural.&quot;);&#xD;
+		Bloco blocoQuestaoB1 = new Bloco(&quot;B1) Proxy em construção.&quot;);&#xD;
+&#xD;
+		Questao q4 = new Questao(&quot;Q4 - Onde conheceu o composite?&quot;);&#xD;
+		Questao q5 = new Questao(&quot;Q5 - Composite e seu amigo :)?&quot;);&#xD;
+&#xD;
+		blocoQuestaoB1.adicionar(q4);&#xD;
+		blocoQuestaoB1.adicionar(q5);&#xD;
+		blocoQuestaoB.adicionar(blocoQuestaoB1);&#xD;
+&#xD;
+		Bloco blocoQuestaoB2 = new Bloco(&quot;B2) Flyweigth em construção.&quot;);&#xD;
+&#xD;
+		Questao q6 = new Questao(&quot;Q6 - Onde conheceu o Decorator?&quot;);&#xD;
+		Questao q7 = new Questao(&quot;Q7 - Decorator e seu amigo :)?&quot;);&#xD;
+&#xD;
+		blocoQuestaoB2.adicionar(q6);&#xD;
+		blocoQuestaoB.adicionar(blocoQuestaoB2);&#xD;
+		blocoQuestaoB.adicionar(q7);&#xD;
+		&#xD;
+		Bloco blocoRaiz = new Bloco(&quot;inicio - Banco de Questões&quot;);&#xD;
+		blocoRaiz.adicionar(blocoQuestaoA);&#xD;
+		blocoRaiz.adicionar(blocoQuestaoB);&#xD;
+&#xD;
+		System.out.println(&quot;_________________________Itens compostos&quot;);&#xD;
+		blocoRaiz.exibir();&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_RhLr7aPGEeyVO-s55lPFQg" name="main" isStatic="true" method="_Rhem3KPGEeyVO-s55lPFQg">
+              <ownedParameter xmi:id="_RhLr7qPGEeyVO-s55lPFQg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RhLr76PGEeyVO-s55lPFQg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Rhem36PGEeyVO-s55lPFQg" name="" memberEnd="_Rhem4KPGEeyVO-s55lPFQg _RhVc6aPGEeyVO-s55lPFQg">
+            <ownedEnd xmi:id="_Rhem4KPGEeyVO-s55lPFQg" name="" type="_RhBT0qPGEeyVO-s55lPFQg" association="_Rhem36PGEeyVO-s55lPFQg"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RhBT0KPGEeyVO-s55lPFQg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RhBT0aPGEeyVO-s55lPFQg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RhVc4KPGEeyVO-s55lPFQg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RhVc4qPGEeyVO-s55lPFQg" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_O-6jcqPGEeyVO-s55lPFQg">
+      <eAnnotations xmi:id="_O-6jc6PGEeyVO-s55lPFQg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O_OFcKPGEeyVO-s55lPFQg" base_Element="_O_MQQ6PGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:Annotations xmi:id="_O_OFcaPGEeyVO-s55lPFQg" base_Element="_O_MQQ6PGEeyVO-s55lPFQg">
+    <annotations xmi:id="_O_OFcqPGEeyVO-s55lPFQg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RhLr46PGEeyVO-s55lPFQg" base_Element="_RhLr4qPGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:Annotations xmi:id="_RhLr5KPGEeyVO-s55lPFQg" base_Element="_RhLr4qPGEeyVO-s55lPFQg">
+    <annotations xmi:id="_RhLr5aPGEeyVO-s55lPFQg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_RhVc4aPGEeyVO-s55lPFQg" base_Element="_RhVc4KPGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:Reference xmi:id="_RhVc46PGEeyVO-s55lPFQg" base_Element="_RhVc4qPGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RhVc7KPGEeyVO-s55lPFQg" base_Element="_RhVc6aPGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rhem0KPGEeyVO-s55lPFQg" base_Element="_RhVc7aPGEeyVO-s55lPFQg"/>
+  <UMLLabProfile:Reference xmi:id="_Rhem4aPGEeyVO-s55lPFQg" base_Element="_Rhem36PGEeyVO-s55lPFQg"/>
+</xmi:XMI>

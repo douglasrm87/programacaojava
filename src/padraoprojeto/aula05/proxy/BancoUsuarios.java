@@ -1,6 +1,5 @@
 package padraoprojeto.aula05.proxy;
-
-public class BancoUsuarios {
+public abstract class BancoUsuarios implements BancoInterface{
 	private int quantidadeDeUsuarios;
 	private int usuariosConectados;
 
@@ -8,11 +7,9 @@ public class BancoUsuarios {
 		quantidadeDeUsuarios = (int) (Math.random() * 100);
 		usuariosConectados = (int) (Math.random() * 10);
 	}
-
 	public String getNumeroDeUsuarios() {
 		return new String("Total de usuários: " + quantidadeDeUsuarios);
 	}
-
 	public String getUsuariosConectados() {
 		return new String("Usuários conectados: " + usuariosConectados);
 	}

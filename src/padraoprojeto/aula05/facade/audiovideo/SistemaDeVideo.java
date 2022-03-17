@@ -2,7 +2,7 @@ package padraoprojeto.aula05.facade.audiovideo;
 
 public class SistemaDeVideo {
 	public void configurarResolucao() {
-		System.out.println("ResoluÃ§Ã£o configurada");
+		System.out.println("Resolução configurada");
 	}
 
 	public void configurarCores() {

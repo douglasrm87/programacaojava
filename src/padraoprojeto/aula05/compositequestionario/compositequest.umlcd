@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_GiRHQKPGEeyVO-s55lPFQg">
+  <modelElement href="compositequest.uml#_O-6jcKPGEeyVO-s55lPFQg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rin2UKPGEeyVO-s55lPFQg" sourceAnchor="0.0,66.0" targetAnchor="101.0,116.0" target="_RitV4KPGEeyVO-s55lPFQg" source="_Rin2W6PGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_Rhem36PGEeyVO-s55lPFQg"/>
+    <bendpoints xmi:id="_RnIi4qPGEeyVO-s55lPFQg" sourceX="-15" targetY="306"/>
+    <stereotypes xmi:id="_Rin2UaPGEeyVO-s55lPFQg" name="Reference">
+      <modelElement href="compositequest.uml#_Rhem4aPGEeyVO-s55lPFQg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rin2UqPGEeyVO-s55lPFQg" text="">
+      <visualProperties xmi:id="_RnRs0KPGEeyVO-s55lPFQg" position="-179.3277960377755,-9.965819835937282"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rin2U6PGEeyVO-s55lPFQg" aggregationKind="NONE" name="">
+      <modelElement href="compositequest.uml#_Rhem4KPGEeyVO-s55lPFQg"/>
+      <visualProperties xmi:id="_RnIi5aPGEeyVO-s55lPFQg" position="-67.22998788735089,-21.792238006283355"/>
+      <visibility xmi:id="_Rin2VKPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Rin2VaPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rin2VqPGEeyVO-s55lPFQg" aggregationKind="NONE" name="elementos" navigable="true">
+      <modelElement href="compositequest.uml#_RhVc6aPGEeyVO-s55lPFQg"/>
+      <visualProperties xmi:id="_RnST4KPGEeyVO-s55lPFQg" position="-314.39410503347784,284.75526913939694"/>
+      <visibility xmi:id="_Rin2V6PGEeyVO-s55lPFQg" label="-"/>
+      <cardinality xmi:id="_Rin2WKPGEeyVO-s55lPFQg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Rin2WaPGEeyVO-s55lPFQg" sourceAnchor="155.0,0.0" targetAnchor="268.0,116.0" superClass="_RitV4KPGEeyVO-s55lPFQg" subClass="_PDfhcKPGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_PAJSgqPGEeyVO-s55lPFQg"/>
+    <bendpoints xmi:id="_RnIi4KPGEeyVO-s55lPFQg" sourceY="-30" targetX="49" targetY="56"/>
+    <bendpoints xmi:id="_RnIi4aPGEeyVO-s55lPFQg" sourceX="-49" sourceY="-30" targetY="56"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Rin2WqPGEeyVO-s55lPFQg" sourceAnchor="31.0,0.0" targetAnchor="268.0,116.0" superClass="_RitV4KPGEeyVO-s55lPFQg" subClass="_Rin2W6PGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_RhVc6KPGEeyVO-s55lPFQg"/>
+    <bendpoints xmi:id="_RnIi46PGEeyVO-s55lPFQg" sourceY="-184" targetX="-121" targetY="56"/>
+    <bendpoints xmi:id="_RnIi5KPGEeyVO-s55lPFQg" sourceX="121" sourceY="-184" targetY="56"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PDfhcKPGEeyVO-s55lPFQg" name="Questao" generalizations="_Rin2WaPGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_O-6jcaPGEeyVO-s55lPFQg"/>
+    <visualProperties xmi:id="_PDfhcaPGEeyVO-s55lPFQg" position="356.0,147.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PDfhcqPGEeyVO-s55lPFQg" label="+"/>
+    <operations xmi:id="_PDfhc6PGEeyVO-s55lPFQg" name="Questao">
+      <modelElement href="compositequest.uml#_O_EUfKPGEeyVO-s55lPFQg"/>
+      <keywords xmi:id="_PDfhdKPGEeyVO-s55lPFQg" keyword="create"/>
+      <visibility xmi:id="_PDorYKPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_PDorYaPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PDorYqPGEeyVO-s55lPFQg">
+        <modelElement href="compositequest.uml#_O_MQQqPGEeyVO-s55lPFQg"/>
+        <type xmi:id="_PDorY6PGEeyVO-s55lPFQg" name="Questao">
+          <modelElement href="compositequest.uml#_O-6jcaPGEeyVO-s55lPFQg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PDorZKPGEeyVO-s55lPFQg" name="descricao">
+        <modelElement href="compositequest.uml#_O_EUfaPGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_PDorZaPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+        <type xmi:id="_PDorZqPGEeyVO-s55lPFQg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PDorZ6PGEeyVO-s55lPFQg" name="exibir">
+      <modelElement href="compositequest.uml#_O_MQQ6PGEeyVO-s55lPFQg"/>
+      <stereotypes xmi:id="_PDoraKPGEeyVO-s55lPFQg" name="LegacyStyledElement">
+        <modelElement href="compositequest.uml#_O_OFcKPGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PDoraaPGEeyVO-s55lPFQg" name="Annotations">
+        <modelElement href="compositequest.uml#_O_OFcaPGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <visibility xmi:id="_PDoraqPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_PDora6PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RitV4KPGEeyVO-s55lPFQg" name="ElementoDoQuestionario" abstractClass="true" associationsIn="_Rin2UKPGEeyVO-s55lPFQg" subclassedBy="_Rin2WqPGEeyVO-s55lPFQg _Rin2WaPGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_PAJSgKPGEeyVO-s55lPFQg"/>
+    <visualProperties xmi:id="_RitV4aPGEeyVO-s55lPFQg" position="194.0,-55.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RitV4qPGEeyVO-s55lPFQg" label="+"/>
+    <attributes xmi:id="_RitV46PGEeyVO-s55lPFQg" name="descricao">
+      <modelElement href="compositequest.uml#_RhVc7aPGEeyVO-s55lPFQg"/>
+      <stereotypes xmi:id="_RitV5KPGEeyVO-s55lPFQg" name="LegacyStyledElement">
+        <modelElement href="compositequest.uml#_Rhem0KPGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <visibility xmi:id="_RitV5aPGEeyVO-s55lPFQg" label="#"/>
+      <cardinality xmi:id="_RitV5qPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <type xmi:id="_RitV56PGEeyVO-s55lPFQg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RitV6KPGEeyVO-s55lPFQg" name="ElementoDoQuestionario">
+      <modelElement href="compositequest.uml#_RhLr5qPGEeyVO-s55lPFQg"/>
+      <keywords xmi:id="_RitV6aPGEeyVO-s55lPFQg" keyword="create"/>
+      <visibility xmi:id="_RitV6qPGEeyVO-s55lPFQg" label="#"/>
+      <cardinality xmi:id="_RitV66PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RitV7KPGEeyVO-s55lPFQg">
+        <modelElement href="compositequest.uml#_RhLr6qPGEeyVO-s55lPFQg"/>
+        <type xmi:id="_RitV7aPGEeyVO-s55lPFQg" name="ElementoDoQuestionario">
+          <modelElement href="compositequest.uml#_PAJSgKPGEeyVO-s55lPFQg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RitV7qPGEeyVO-s55lPFQg" name="descricao">
+        <modelElement href="compositequest.uml#_RhLr56PGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_RitV76PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+        <type xmi:id="_RitV8KPGEeyVO-s55lPFQg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RitV8aPGEeyVO-s55lPFQg" abstractOperation="true" name="exibir">
+      <modelElement href="compositequest.uml#_RhLr66PGEeyVO-s55lPFQg"/>
+      <visibility xmi:id="_RitV8qPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_RitV86PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ri3G4KPGEeyVO-s55lPFQg" name="Principal">
+    <modelElement href="compositequest.uml#_RhLr7KPGEeyVO-s55lPFQg"/>
+    <visualProperties xmi:id="_Ri3G4aPGEeyVO-s55lPFQg" position="804.0,-11.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ri3G4qPGEeyVO-s55lPFQg" label="+"/>
+    <operations xmi:id="_Ri3G46PGEeyVO-s55lPFQg" name="main" staticOperation="true">
+      <modelElement href="compositequest.uml#_RhLr7aPGEeyVO-s55lPFQg"/>
+      <visibility xmi:id="_Ri3G5KPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Ri3G5aPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ri3G5qPGEeyVO-s55lPFQg" name="args">
+        <modelElement href="compositequest.uml#_RhLr7qPGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_Ri3G56PGEeyVO-s55lPFQg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Ri3G6KPGEeyVO-s55lPFQg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rin2W6PGEeyVO-s55lPFQg" name="Bloco" associationsOut="_Rin2UKPGEeyVO-s55lPFQg" generalizations="_Rin2WqPGEeyVO-s55lPFQg">
+    <modelElement href="compositequest.uml#_RhBT0qPGEeyVO-s55lPFQg"/>
+    <visualProperties xmi:id="_Rin2XKPGEeyVO-s55lPFQg" position="310.0,301.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Rin2XaPGEeyVO-s55lPFQg" label="+"/>
+    <attributes xmi:id="_Rin2XqPGEeyVO-s55lPFQg" defaultValue="new ArrayList&lt;ElementoDoQuestionario>()" name="elementos">
+      <modelElement href="compositequest.uml#_RhVc6aPGEeyVO-s55lPFQg"/>
+      <stereotypes xmi:id="_Rin2X6PGEeyVO-s55lPFQg" name="LegacyStyledElement">
+        <modelElement href="compositequest.uml#_RhVc7KPGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <visibility xmi:id="_Rin2YKPGEeyVO-s55lPFQg" label="-"/>
+      <cardinality xmi:id="_Rin2YaPGEeyVO-s55lPFQg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rin2YqPGEeyVO-s55lPFQg" name="ElementoDoQuestionario">
+        <modelElement href="compositequest.uml#_PAJSgKPGEeyVO-s55lPFQg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rin2Y6PGEeyVO-s55lPFQg" name="Bloco">
+      <modelElement href="compositequest.uml#_RhLE0KPGEeyVO-s55lPFQg"/>
+      <keywords xmi:id="_Rin2ZKPGEeyVO-s55lPFQg" keyword="create"/>
+      <visibility xmi:id="_Rin2ZaPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Rin2ZqPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rin2Z6PGEeyVO-s55lPFQg">
+        <modelElement href="compositequest.uml#_RhLr4aPGEeyVO-s55lPFQg"/>
+        <type xmi:id="_Rin2aKPGEeyVO-s55lPFQg" name="Bloco">
+          <modelElement href="compositequest.uml#_RhBT0qPGEeyVO-s55lPFQg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rin2aaPGEeyVO-s55lPFQg" name="descricao">
+        <modelElement href="compositequest.uml#_RhLE0aPGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_Rin2aqPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+        <type xmi:id="_Rin2a6PGEeyVO-s55lPFQg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rin2bKPGEeyVO-s55lPFQg" name="exibir">
+      <modelElement href="compositequest.uml#_RhLr4qPGEeyVO-s55lPFQg"/>
+      <stereotypes xmi:id="_Rin2baPGEeyVO-s55lPFQg" name="LegacyStyledElement">
+        <modelElement href="compositequest.uml#_RhLr46PGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rin2bqPGEeyVO-s55lPFQg" name="Annotations">
+        <modelElement href="compositequest.uml#_RhLr5KPGEeyVO-s55lPFQg"/>
+      </stereotypes>
+      <visibility xmi:id="_Rin2b6PGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Rin2cKPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Rin2caPGEeyVO-s55lPFQg" name="adicionar">
+      <modelElement href="compositequest.uml#_RhVc5KPGEeyVO-s55lPFQg"/>
+      <visibility xmi:id="_Rin2cqPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Rin2c6PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rin2dKPGEeyVO-s55lPFQg" name="item">
+        <modelElement href="compositequest.uml#_RhVc5aPGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_Rin2daPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+        <type xmi:id="_Rin2dqPGEeyVO-s55lPFQg" name="ElementoDoQuestionario">
+          <modelElement href="compositequest.uml#_PAJSgKPGEeyVO-s55lPFQg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rin2d6PGEeyVO-s55lPFQg" name="remover">
+      <modelElement href="compositequest.uml#_RhVc5qPGEeyVO-s55lPFQg"/>
+      <visibility xmi:id="_Rin2eKPGEeyVO-s55lPFQg" label="+"/>
+      <cardinality xmi:id="_Rin2eaPGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rin2eqPGEeyVO-s55lPFQg" name="item">
+        <modelElement href="compositequest.uml#_RhVc56PGEeyVO-s55lPFQg"/>
+        <cardinality xmi:id="_Rin2e6PGEeyVO-s55lPFQg" label="1" max="1" min="1"/>
+        <type xmi:id="_Rin2fKPGEeyVO-s55lPFQg" name="ElementoDoQuestionario">
+          <modelElement href="compositequest.uml#_PAJSgKPGEeyVO-s55lPFQg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
