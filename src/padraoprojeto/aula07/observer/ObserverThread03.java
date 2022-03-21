@@ -1,4 +1,4 @@
-package padraoprojeto.aula06.observer;
+package padraoprojeto.aula07.observer;
 
 import java.util.Observable;
 import java.util.Observer;

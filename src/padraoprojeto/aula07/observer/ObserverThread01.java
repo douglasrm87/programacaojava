@@ -1,12 +1,12 @@
-package padraoprojeto.aula06.observer;
+package padraoprojeto.aula07.observer;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class ObserverThread02 extends Thread {
+public class ObserverThread01 extends Thread {
 	String frase;
 	SubjectOrigemdoEvento eventSource;
-	public ObserverThread02(String frase, SubjectOrigemdoEvento eventSource) {
+	public ObserverThread01(String frase, SubjectOrigemdoEvento eventSource) {
 		this.frase = frase;
 		this.eventSource = eventSource;
 	}
@@ -17,6 +17,5 @@ public class ObserverThread02 extends Thread {
 				System.out.println(frase + " - " + arg);
 			}
 		});
-
 	}
 }

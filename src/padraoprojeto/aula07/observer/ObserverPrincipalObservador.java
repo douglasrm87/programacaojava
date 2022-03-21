@@ -1,4 +1,4 @@
-package padraoprojeto.aula06.observer;
+package padraoprojeto.aula07.observer;
 
 public class ObserverPrincipalObservador {
 	public static void main(String[] args) {

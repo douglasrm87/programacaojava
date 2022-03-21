@@ -19,6 +19,7 @@ public class Bloco extends ElementoDoQuestionario {
 	@Override
 	public void exibir() {
 		System.out.println("Bloco: " + descricao);
+		// Iteração
 		for (ElementoDoQuestionario item : elementos) {
 			item.exibir();
 		}

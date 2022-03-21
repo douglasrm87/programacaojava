@@ -1,4 +1,4 @@
-package padraoprojeto.aula06.observer.net;
+package padraoprojeto.aula07.observer.net;
 
 import java.util.Observable;
 import java.util.Scanner;
