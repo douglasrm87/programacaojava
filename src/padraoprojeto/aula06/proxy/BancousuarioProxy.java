@@ -1,10 +1,9 @@
 package padraoprojeto.aula06.proxy;
 
-public class BancoProxy extends BancoUsuarios {
-
+public class BancousuarioProxy extends BancoUsuario implements BancoInterface {
 	protected String usuario, senha;
 
-	public BancoProxy(String usuario, String senha) {
+	public BancousuarioProxy(String usuario, String senha) {
 		this.usuario = usuario;
 		this.senha = senha;
 	}
