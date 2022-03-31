@@ -1,4 +1,14 @@
 eclipse.preferences.version=1
 encoding//src/padraoprojeto/aula03/prototype/GolPrototype.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompAddButton.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompDeleteButton.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompFilter.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompListaItens.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompSaveButton.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompTextBox.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/CompTitle.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/Demo.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/MedEditor.java=UTF-8
+encoding//src/padraoprojeto/aula09/mediator/swing/Note.java=UTF-8
 encoding/<project>=iso-8859-1
 encoding/src=iso-8859-1

@@ -15,7 +15,7 @@ public class ExemploClasseDVD implements ExemploInterfaceDVD {
 		System.out.println("Lista de DVDs");
 		for (int i = 0; i < dvds.size(); i++) {
 			System.out.println();
-			System.out.print("Nome do Cliente: ");
+			System.out.print("Nome do Editor: ");
 			System.out.println(((ExemploEstruturaDVD) this.dvds.get(i)).getNomeCliente());
 			System.out.print("Preco do DVD: ");
 			System.out.println(((ExemploEstruturaDVD) this.dvds.get(i)).getPreco());

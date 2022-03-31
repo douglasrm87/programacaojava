@@ -76,7 +76,7 @@ public class login1 {
 
 	public void imprimir() {
 		System.out.println("Nome do cliente" + this.nome);
-		System.out.println("Email do Cliente" + this.email);
+		System.out.println("Email do Editor" + this.email);
 		System.out.println("Telefone" + this.telefone);
 		System.out.println("CEP" + this.cep);
 		System.out.println("CPF" + this.cpf);

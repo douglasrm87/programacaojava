@@ -2,7 +2,7 @@ package sistemaoperacional.socketcliente;
 
 
 /*
-Classe Cliente Multicast
+Classe Editor Multicast
 */
 
 import java.io.IOException;

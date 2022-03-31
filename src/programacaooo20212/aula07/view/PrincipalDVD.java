@@ -8,7 +8,7 @@ public class PrincipalDVD {
 
 	public void cadastrarDVD(ExemploEstruturaDVD obj) {
 		Scanner scan = new Scanner(System.in).useDelimiter("\r\n");
-		System.out.println("Nome do Cliente: ");
+		System.out.println("Nome do Editor: ");
 		obj.setNomeCliente(scan.nextLine());
 		System.out.println("Valor do DVD: ");
 		obj.setPreco(scan.nextDouble());

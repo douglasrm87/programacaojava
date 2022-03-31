@@ -35,7 +35,7 @@ public class CervejaArtesanal {
 						LocalDateTime.now().minusDays(50)),
 				new CervejaArtesanal(4l, 105, "Petroleum Ale", Lupulo.carregarLupulos(3), false,
 						LocalDateTime.now().minusMonths(3)));
-		// ordenar pelo IBU. usando o novo método sort() da interface List.
+		// ordenar pelo IBU. usando o novo método sort() da interface CompListaItens.
 		return listaCervejas;
 	}
 	// ordenar a lista de cerveja pelo indice de amargor. Cerveja com menor amargor será a primeira.

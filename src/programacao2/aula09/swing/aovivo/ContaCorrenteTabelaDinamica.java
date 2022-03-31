@@ -48,7 +48,7 @@ public class ContaCorrenteTabelaDinamica {
 		ContaCorrente conta;
 		
 		for (int i = 0; i < 5; i++) {
-			conta = new ContaCorrente(100, 123456, 200.0, "Cliente 01");
+			conta = new ContaCorrente(100, 123456, 200.0, "Editor 01");
 			listaContas.add(conta);
 			
 		}

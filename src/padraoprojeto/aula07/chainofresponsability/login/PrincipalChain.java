@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 public class PrincipalChain {
 	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-	private static Server server;
+public static Server server;
 	private static int QDADETentativas = 2;
 	
 	private static void init() {

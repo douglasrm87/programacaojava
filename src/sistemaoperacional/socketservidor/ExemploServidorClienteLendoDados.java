@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 
 /*
-Classe Cliente
+Classe Editor
 */
 import java.net.Socket;
 import java.net.UnknownHostException;

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Sfqx4LECEeyZAL-ZAH-Pvw">
+  <modelElement href="programacaojava.uml#_SeefELECEeyZAL-ZAH-Pvw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_U2GdwLECEeyZAL-ZAH-Pvw" sourceAnchor="162.0,0.0" targetAnchor="153.0,85.0" dashed="true" superClass="_U2JhELECEeyZAL-ZAH-Pvw" subClass="_U2HE0LECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tt-_I7ECEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_Y55DULECEeyZAL-ZAH-Pvw" sourceY="-30" targetX="-30" targetY="78"/>
+    <bendpoints xmi:id="_Y55DUbECEeyZAL-ZAH-Pvw" sourceX="30" sourceY="-30" targetY="78"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_U2Hr4LECEeyZAL-ZAH-Pvw" sourceAnchor="176.0,0.0" targetAnchor="153.0,85.0" dashed="true" superClass="_U2JhELECEeyZAL-ZAH-Pvw" subClass="_U2IS8LECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tt-_KbECEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_Y55DUrECEeyZAL-ZAH-Pvw" sourceY="-114" targetX="169" targetY="78"/>
+    <bendpoints xmi:id="_Y55DU7ECEeyZAL-ZAH-Pvw" sourceX="-169" sourceY="-114" targetY="78"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_U2I6ALECEeyZAL-ZAH-Pvw" sourceAnchor="160.0,0.0" targetAnchor="153.0,85.0" dashed="true" superClass="_U2JhELECEeyZAL-ZAH-Pvw" subClass="_U2I6AbECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tt_mMrECEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_Y55DVLECEeyZAL-ZAH-Pvw" sourceY="-113" targetX="-207" targetY="78"/>
+    <bendpoints xmi:id="_Y55DVbECEeyZAL-ZAH-Pvw" sourceX="207" sourceY="-113" targetY="78"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2IS8LECEeyZAL-ZAH-Pvw" name="PagamentoCartaoCredito" generalizations="_U2Hr4LECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tr2RJrECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2IS8bECEeyZAL-ZAH-Pvw" position="457.0,324.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2IS8rECEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_U2IS87ECEeyZAL-ZAH-Pvw" name="processarCompra">
+      <modelElement href="programacaojava.uml#_Tt-_KrECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2IS9LECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tt-_LLECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U2IS9bECEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_Tt_mMLECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2IS9rECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2IS97ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2IS-LECEeyZAL-ZAH-Pvw" name="compra">
+        <modelElement href="programacaojava.uml#_Tt-_K7ECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2IS-bECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2IS-rECEeyZAL-ZAH-Pvw" name="Compra">
+          <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2HE0LECEeyZAL-ZAH-Pvw" name="PagamentoBoleto" generalizations="_U2GdwLECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tr2RJbECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2HE0bECEeyZAL-ZAH-Pvw" position="272.0,240.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2HE0rECEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_U2HE07ECEeyZAL-ZAH-Pvw" name="processarCompra">
+      <modelElement href="programacaojava.uml#_Tt-_JLECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2HE1LECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tt-_JrECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U2HE1bECEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_Tt-_J7ECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2HE1rECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2HE17ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2HE2LECEeyZAL-ZAH-Pvw" name="compra">
+        <modelElement href="programacaojava.uml#_Tt-_JbECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2HE2bECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2HE2rECEeyZAL-ZAH-Pvw" name="Compra">
+          <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2I6AbECEeyZAL-ZAH-Pvw" name="PagamentoCartaoDebito" generalizations="_U2I6ALECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tr2RJ7ECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2I6ArECEeyZAL-ZAH-Pvw" position="97.0,323.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2I6A7ECEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_U2I6BLECEeyZAL-ZAH-Pvw" name="processarCompra">
+      <modelElement href="programacaojava.uml#_Tt_mM7ECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2I6BbECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tt_mNbECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U2I6BrECEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_Tt_mNrECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2I6B7ECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2I6CLECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2I6CbECEeyZAL-ZAH-Pvw" name="compra">
+        <modelElement href="programacaojava.uml#_Tt_mNLECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2I6CrECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2I6C7ECEeyZAL-ZAH-Pvw" name="Compra">
+          <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2CMULECEeyZAL-ZAH-Pvw" name="Cliente">
+    <modelElement href="programacaojava.uml#_Tr1DCrECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2CMUbECEeyZAL-ZAH-Pvw" position="69.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2CMUrECEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_U2CMU7ECEeyZAL-ZAH-Pvw" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_Tr1qELECEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_U2CMVLECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2CMVbECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2CMVrECEeyZAL-ZAH-Pvw" name="args">
+        <modelElement href="programacaojava.uml#_Tr1qEbECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2CMV7ECEeyZAL-ZAH-Pvw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_U2CMWLECEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2F2sLECEeyZAL-ZAH-Pvw" name="Loja">
+    <modelElement href="programacaojava.uml#_Tr1qHbECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2F2sbECEeyZAL-ZAH-Pvw" position="-340.0,126.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2F2srECEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="_U2F2s7ECEeyZAL-ZAH-Pvw" name="nomeDaLoja">
+      <modelElement href="programacaojava.uml#_Tun4VLECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2F2tLECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tun4VbECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2F2tbECEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_U2F2trECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_U2F2t7ECEeyZAL-ZAH-Pvw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_U2F2uLECEeyZAL-ZAH-Pvw" name="Loja">
+      <modelElement href="programacaojava.uml#_Tr2RILECEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_U2F2ubECEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_U2F2urECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2F2u7ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_U2F2vLECEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_Tr2RJLECEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_U2F2vbECEeyZAL-ZAH-Pvw" name="Loja">
+          <modelElement href="programacaojava.uml#_Tr1qHbECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_U2F2vrECEeyZAL-ZAH-Pvw" name="nome">
+        <modelElement href="programacaojava.uml#_Tr2RIbECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2F2v7ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2F2wLECEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_U2F2wbECEeyZAL-ZAH-Pvw" name="executarCompra">
+      <modelElement href="programacaojava.uml#_Tt-_ILECEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_U2F2wrECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2F2w7ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2F2xLECEeyZAL-ZAH-Pvw" name="valor">
+        <modelElement href="programacaojava.uml#_Tt-_IbECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2F2xbECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2F2xrECEeyZAL-ZAH-Pvw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_U2F2x7ECEeyZAL-ZAH-Pvw" name="formaDePagamento">
+        <modelElement href="programacaojava.uml#_Tt-_IrECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2F2yLECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2F2ybECEeyZAL-ZAH-Pvw" name="PagamentoCommand">
+          <modelElement href="programacaojava.uml#_Tr2RKLECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U2DacLECEeyZAL-ZAH-Pvw" name="Compra">
+    <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2DacbECEeyZAL-ZAH-Pvw" position="-274.0,257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2DacrECEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="_U2Dac7ECEeyZAL-ZAH-Pvw" name="CONTADOR_ID" staticAttribute="true">
+      <modelElement href="programacaojava.uml#_TunRSLECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2DadLECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_TunRSbECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2DadbECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2DadrECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_U2Dad7ECEeyZAL-ZAH-Pvw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U2DaeLECEeyZAL-ZAH-Pvw" name="idNotaFiscal">
+      <modelElement href="programacaojava.uml#_TunRSrECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2DaebECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_TunRS7ECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2DaerECEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_U2Dae7ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_U2DafLECEeyZAL-ZAH-Pvw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U2DafbECEeyZAL-ZAH-Pvw" name="nomeDaLoja">
+      <modelElement href="programacaojava.uml#_Tun4ULECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2DafrECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tun4UbECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2Daf7ECEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_U2DagLECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_U2DagbECEeyZAL-ZAH-Pvw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U2DagrECEeyZAL-ZAH-Pvw" name="valorTotal">
+      <modelElement href="programacaojava.uml#_Tun4UrECEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_U2Dag7ECEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Tun4U7ECEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_U2DahLECEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_U2DahbECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_U2DahrECEeyZAL-ZAH-Pvw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_U2Dah7ECEeyZAL-ZAH-Pvw" name="Compra">
+      <modelElement href="programacaojava.uml#_Tr1qFLECEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_U2DaiLECEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_U2DaibECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2DairECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_U2Dai7ECEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_Tr1qGLECEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_U2DajLECEeyZAL-ZAH-Pvw" name="Compra">
+          <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_U2DajbECEeyZAL-ZAH-Pvw" name="nomeDaLoja">
+        <modelElement href="programacaojava.uml#_Tr1qFbECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2DajrECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2Daj7ECEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_U2DakLECEeyZAL-ZAH-Pvw" name="setValor">
+      <modelElement href="programacaojava.uml#_Tr1qGbECEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_U2DakbECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2DakrECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2Dak7ECEeyZAL-ZAH-Pvw" name="valor">
+        <modelElement href="programacaojava.uml#_Tr1qGrECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2DalLECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2DalbECEeyZAL-ZAH-Pvw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_U2DalrECEeyZAL-ZAH-Pvw" name="getInfoNota">
+      <modelElement href="programacaojava.uml#_Tr1qG7ECEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_U2Dal7ECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2DamLECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_U2DambECEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_Tr1qHLECEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_U2DamrECEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_U2JhELECEeyZAL-ZAH-Pvw" name="PagamentoCommand" subclassedBy="_U2GdwLECEeyZAL-ZAH-Pvw _U2Hr4LECEeyZAL-ZAH-Pvw _U2I6ALECEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Tr2RKLECEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_U2JhEbECEeyZAL-ZAH-Pvw" position="311.0,47.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_U2JhErECEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_U2JhE7ECEeyZAL-ZAH-Pvw" name="processarCompra">
+      <modelElement href="programacaojava.uml#_Tt_mOLECEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_U2JhFLECEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_U2JhFbECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_U2JhFrECEeyZAL-ZAH-Pvw" name="compra">
+        <modelElement href="programacaojava.uml#_Tt_mObECEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_U2JhF7ECEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_U2JhGLECEeyZAL-ZAH-Pvw" name="Compra">
+          <modelElement href="programacaojava.uml#_Tr1qE7ECEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

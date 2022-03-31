@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_XOHv8LEAEeyZAL-ZAH-Pvw">
+  <modelElement href="programacaojava.uml#_XNOYELEAEeyZAL-ZAH-Pvw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZJpBcLEAEeyZAL-ZAH-Pvw" sourceAnchor="100.0,0.0" targetAnchor="96.0,139.0" superClass="_ZJpogLEAEeyZAL-ZAH-Pvw" subClass="_ZJoaYLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Xj7n6rEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_b54Uc7EAEeyZAL-ZAH-Pvw" sourceY="-39" targetX="30" targetY="28"/>
+    <bendpoints xmi:id="_b54UdLEAEeyZAL-ZAH-Pvw" sourceX="-30" sourceY="-39" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZJqPkLEAEeyZAL-ZAH-Pvw" sourceAnchor="246.0,0.0" targetAnchor="0.0,40.0" target="_ZJpogLEAEeyZAL-ZAH-Pvw" source="_ZJrdtLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_XlREobEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_b54UcLEAEeyZAL-ZAH-Pvw" sourceY="-154" targetX="-310"/>
+    <stereotypes xmi:id="_ZJq2o7EAEeyZAL-ZAH-Pvw" name="Reference">
+      <modelElement href="programacaojava.uml#_XlREo7EAEeyZAL-ZAH-Pvw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZJq2oLEAEeyZAL-ZAH-Pvw" text="">
+      <visualProperties xmi:id="_ZLXfwLEAEeyZAL-ZAH-Pvw" position="-21.0,67.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ZJq2obEAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_XlREorEAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="_ZLW4tLEAEeyZAL-ZAH-Pvw" position="-3.0,-67.0"/>
+      <visibility xmi:id="_ZJrdsLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJq2pLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZJq2orEAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="coquetel" navigable="true">
+      <modelElement href="programacaojava.uml#_Xkb-NbEAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="_ZLXfwbEAEeyZAL-ZAH-Pvw" position="-342.0,15.0"/>
+      <visibility xmi:id="_ZJrdsrEAEeyZAL-ZAH-Pvw" label="~"/>
+      <cardinality xmi:id="_ZJrdsbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZJqPkbEAEeyZAL-ZAH-Pvw" sourceAnchor="276.0,0.0" targetAnchor="96.0,139.0" superClass="_ZJpogLEAEeyZAL-ZAH-Pvw" subClass="_ZJrdtLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Xj7n8LEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_b54UcbEAEeyZAL-ZAH-Pvw" sourceY="-27" targetX="-376" targetY="28"/>
+    <bendpoints xmi:id="_b54UcrEAEeyZAL-ZAH-Pvw" sourceX="376" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZJtS4LEAEeyZAL-ZAH-Pvw" sourceAnchor="42.0,0.0" targetAnchor="246.0,109.0" superClass="_ZJrdtLEAEeyZAL-ZAH-Pvw" subClass="_ZJt58LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_Xj8O9bEAEeyZAL-ZAH-Pvw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZJpogLEAEeyZAL-ZAH-Pvw" name="Coquetel" abstractClass="true" associationsIn="_ZJqPkLEAEeyZAL-ZAH-Pvw" subclassedBy="_ZJpBcLEAEeyZAL-ZAH-Pvw _ZJqPkbEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_XgZLsLEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_ZJpogbEAEeyZAL-ZAH-Pvw" position="447.0,-212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZJpogrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="_ZJpog7EAEeyZAL-ZAH-Pvw" name="nome">
+      <modelElement href="programacaojava.uml#_Xkb-MbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_ZJpohLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Xkb-MrEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZJpohbEAEeyZAL-ZAH-Pvw" label="~"/>
+      <cardinality xmi:id="_ZJpohrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZJpoh7EAEeyZAL-ZAH-Pvw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZJpoiLEAEeyZAL-ZAH-Pvw" name="preco">
+      <modelElement href="programacaojava.uml#_Xkb-M7EAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_ZJpoibEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Xkb-NLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZJpoirEAEeyZAL-ZAH-Pvw" label="~"/>
+      <cardinality xmi:id="_ZJpoi7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZJpojLEAEeyZAL-ZAH-Pvw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZJpojbEAEeyZAL-ZAH-Pvw" name="getNome">
+      <modelElement href="programacaojava.uml#_XgZLsbEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_ZJpojrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJpoj7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJpokLEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_XgZLsrEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJpokbEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZJpokrEAEeyZAL-ZAH-Pvw" name="getPreco">
+      <modelElement href="programacaojava.uml#_XgZLs7EAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_ZJpok7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJpolLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJpolbEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_XgZLtLEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJpolrEAEeyZAL-ZAH-Pvw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZJrdtLEAEeyZAL-ZAH-Pvw" name="CoquetelDecorator" abstractClass="true" associationsOut="_ZJqPkLEAEeyZAL-ZAH-Pvw" generalizations="_ZJqPkbEAEeyZAL-ZAH-Pvw" subclassedBy="_ZJtS4LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_XgZLtbEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_ZJrdtbEAEeyZAL-ZAH-Pvw" position="-109.0,-18.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZJrdtrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="_ZJrdt7EAEeyZAL-ZAH-Pvw" name="coquetel">
+      <modelElement href="programacaojava.uml#_Xkb-NbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_ZJrduLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_Xkb-NrEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZJrdubEAEeyZAL-ZAH-Pvw" label="~"/>
+      <cardinality xmi:id="_ZJrdurEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_ZJrdu7EAEeyZAL-ZAH-Pvw" name="Coquetel">
+        <modelElement href="programacaojava.uml#_XgZLsLEAEeyZAL-ZAH-Pvw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZJrdvLEAEeyZAL-ZAH-Pvw" name="getNome">
+      <modelElement href="programacaojava.uml#_XgZywLEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_ZJrdvbEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_XgZywrEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZJrdvrEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_XgZyw7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_ZJrdv7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJrdwLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJrdwbEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_XgZywbEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJrdwrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZJrdw7EAEeyZAL-ZAH-Pvw" name="getPreco">
+      <modelElement href="programacaojava.uml#_XgZyxbEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_ZJrdxLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJrdxbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJrdxrEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_XgZyxrEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJrdx7EAEeyZAL-ZAH-Pvw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ZJrdyLEAEeyZAL-ZAH-Pvw" name="CoquetelDecorator">
+      <modelElement href="programacaojava.uml#_Xj7n67EAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_ZJrdybEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_ZJrdyrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJrdy7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJrdzLEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_Xj7n77EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJrdzbEAEeyZAL-ZAH-Pvw" name="CoquetelDecorator">
+          <modelElement href="programacaojava.uml#_XgZLtbEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZJrdzrEAEeyZAL-ZAH-Pvw" name="umCoquetel">
+        <modelElement href="programacaojava.uml#_Xj7n7LEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_ZJrdz7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZJrd0LEAEeyZAL-ZAH-Pvw" name="Coquetel">
+          <modelElement href="programacaojava.uml#_XgZLsLEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZJoaYLEAEeyZAL-ZAH-Pvw" name="Cachaca" generalizations="_ZJpBcLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_XgYkpbEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_ZJoaYbEAEeyZAL-ZAH-Pvw" position="473.0,-6.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZJoaYrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_ZJoaY7EAEeyZAL-ZAH-Pvw" name="Cachaca">
+      <modelElement href="programacaojava.uml#_XgYkprEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_ZJoaZLEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_ZJoaZbEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJoaZrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJoaZ7EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_XgYkqbEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJoaaLEAEeyZAL-ZAH-Pvw" name="Cachaca">
+          <modelElement href="programacaojava.uml#_XgYkpbEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZJt58LEAEeyZAL-ZAH-Pvw" name="Refrigerante" generalizations="_ZJtS4LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_XgaZ1LEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_ZJt58bEAEeyZAL-ZAH-Pvw" position="95.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZJt58rEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_ZJt587EAEeyZAL-ZAH-Pvw" name="Refrigerante">
+      <modelElement href="programacaojava.uml#_Xj8O8LEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_ZJt59LEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_ZJt59bEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJt59rEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZJt597EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_Xj8O9LEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_ZJt5-LEAEeyZAL-ZAH-Pvw" name="Refrigerante">
+          <modelElement href="programacaojava.uml#_XgaZ1LEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZJt5-bEAEeyZAL-ZAH-Pvw" name="umCoquetel">
+        <modelElement href="programacaojava.uml#_Xj8O8bEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_ZJt5-rEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_ZJt5-7EAEeyZAL-ZAH-Pvw" name="Coquetel">
+          <modelElement href="programacaojava.uml#_XgZLsLEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZJsr0LEAEeyZAL-ZAH-Pvw" name="Main">
+    <modelElement href="programacaojava.uml#_XgaZ0LEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_ZJsr0bEAEeyZAL-ZAH-Pvw" position="204.0,-144.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZJsr0rEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_ZJsr07EAEeyZAL-ZAH-Pvw" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_XgaZ0bEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_ZJsr1LEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_ZJsr1bEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZJsr1rEAEeyZAL-ZAH-Pvw" name="args">
+        <modelElement href="programacaojava.uml#_XgaZ0rEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_ZJsr17EAEeyZAL-ZAH-Pvw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ZJsr2LEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

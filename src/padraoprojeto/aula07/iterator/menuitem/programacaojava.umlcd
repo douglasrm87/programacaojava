@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UQqPYLD3EeyDG4Y8nCv6lg">
+  <modelElement href="programacaojava.uml#_UP3lMLD3EeyDG4Y8nCv6lg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ww9B4LD3EeyDG4Y8nCv6lg" sourceAnchor="199.0,0.0" targetAnchor="0.0,53.0" target="_Ww6loLD3EeyDG4Y8nCv6lg" source="_Ww-QALD3EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_VZtiKrD3EeyDG4Y8nCv6lg"/>
+    <bendpoints xmi:id="_ZviS4LD3EeyDG4Y8nCv6lg" sourceY="-88" targetX="-274"/>
+    <stereotypes xmi:id="_Ww9o8LD3EeyDG4Y8nCv6lg" name="Reference">
+      <modelElement href="programacaojava.uml#_VZtiLLD3EeyDG4Y8nCv6lg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ww9B4bD3EeyDG4Y8nCv6lg" text="">
+      <visualProperties xmi:id="_WyujgLD3EeyDG4Y8nCv6lg" position="114.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ww9B4rD3EeyDG4Y8nCv6lg" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_VZtiK7D3EeyDG4Y8nCv6lg"/>
+      <visualProperties xmi:id="_Wyt8crD3EeyDG4Y8nCv6lg" position="41.0,-87.0"/>
+      <visibility xmi:id="_Ww9o8rD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_Ww9o8bD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ww9B47D3EeyDG4Y8nCv6lg" aggregationKind="NONE" name="itens" navigable="true">
+      <modelElement href="programacaojava.uml#_VY64CLD3EeyDG4Y8nCv6lg"/>
+      <visualProperties xmi:id="_WyvKkLD3EeyDG4Y8nCv6lg" position="-85.5,2.0"/>
+      <visibility xmi:id="_Ww9o9LD3EeyDG4Y8nCv6lg" label="~"/>
+      <cardinality xmi:id="_Ww9o87D3EeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ww_eILD3EeyDG4Y8nCv6lg" sourceAnchor="164.0,0.0" targetAnchor="97.0,108.0" dashed="true" superClass="_WxAFMLD3EeyDG4Y8nCv6lg" subClass="_Ww-QALD3EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_VYLREbD3EeyDG4Y8nCv6lg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ww-QALD3EeyDG4Y8nCv6lg" name="MenuIterator" associationsOut="_Ww9B4LD3EeyDG4Y8nCv6lg" generalizations="_Ww_eILD3EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_VVMOhrD3EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_Ww-QAbD3EeyDG4Y8nCv6lg" position="49.0,243.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ww-QArD3EeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_Ww-QA7D3EeyDG4Y8nCv6lg" name="itens">
+      <modelElement href="programacaojava.uml#_VY64CLD3EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_Ww-QBLD3EeyDG4Y8nCv6lg" name="Array">
+        <modelElement href="programacaojava.uml#_VY7fAbD3EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ww-QBbD3EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_VY7fArD3EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_Ww-QBrD3EeyDG4Y8nCv6lg" label="~"/>
+      <cardinality xmi:id="_Ww-QB7D3EeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Ww-QCLD3EeyDG4Y8nCv6lg" name="MenuItem">
+        <modelElement href="programacaojava.uml#_VVMOgLD3EeyDG4Y8nCv6lg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ww-QCbD3EeyDG4Y8nCv6lg" defaultValue="0" name="posicao">
+      <modelElement href="programacaojava.uml#_VY7fA7D3EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_Ww-QCrD3EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_VY7fBbD3EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_Ww-QC7D3EeyDG4Y8nCv6lg" label="~"/>
+      <cardinality xmi:id="_Ww-QDLD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_Ww-QDbD3EeyDG4Y8nCv6lg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ww-QDrD3EeyDG4Y8nCv6lg" name="next">
+      <modelElement href="programacaojava.uml#_VVMOh7D3EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_Ww-QD7D3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_Ww-QELD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ww-QEbD3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VYk5sbD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_Ww-QErD3EeyDG4Y8nCv6lg" name="Object">
+          <modelElement href="programacaojava.uml#_VYkSorD3EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ww-QE7D3EeyDG4Y8nCv6lg" name="hasNext">
+      <modelElement href="programacaojava.uml#_VVMOiLD3EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_Ww-QFLD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_Ww-QFbD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ww-QFrD3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VVMOibD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_Ww-QF7D3EeyDG4Y8nCv6lg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ww-QGLD3EeyDG4Y8nCv6lg" name="MenuIterator">
+      <modelElement href="programacaojava.uml#_VYLRErD3EeyDG4Y8nCv6lg"/>
+      <keywords xmi:id="_Ww-QGbD3EeyDG4Y8nCv6lg" keyword="create"/>
+      <visibility xmi:id="_Ww-QGrD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_Ww-QG7D3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ww-QHLD3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VYLRFrD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_Ww-QHbD3EeyDG4Y8nCv6lg" name="MenuIterator">
+          <modelElement href="programacaojava.uml#_VVMOhrD3EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ww-QHrD3EeyDG4Y8nCv6lg" name="itens">
+        <modelElement href="programacaojava.uml#_VYLRE7D3EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_Ww-QH7D3EeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Ww-QILD3EeyDG4Y8nCv6lg" name="MenuItem">
+          <modelElement href="programacaojava.uml#_VVMOgLD3EeyDG4Y8nCv6lg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WxAFMLD3EeyDG4Y8nCv6lg" name="MeuIterator" subclassedBy="_Ww_eILD3EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_VVM1kLD3EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_WxAFMbD3EeyDG4Y8nCv6lg" position="116.0,32.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WxAFMrD3EeyDG4Y8nCv6lg" label="+"/>
+    <operations xmi:id="_WxAFM7D3EeyDG4Y8nCv6lg" name="hasNext">
+      <modelElement href="programacaojava.uml#_VVM1kbD3EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_WxAFNLD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_WxAFNbD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WxAFNrD3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VVM1krD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_WxAFN7D3EeyDG4Y8nCv6lg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WxAFOLD3EeyDG4Y8nCv6lg" name="next">
+      <modelElement href="programacaojava.uml#_VVNcoLD3EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_WxAFObD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_WxAFOrD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WxAFO7D3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VYk5srD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_WxAFPLD3EeyDG4Y8nCv6lg" name="Object">
+          <modelElement href="programacaojava.uml#_VYkSorD3EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ww6loLD3EeyDG4Y8nCv6lg" name="MenuItem" associationsIn="_Ww9B4LD3EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_VVMOgLD3EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_Ww6lobD3EeyDG4Y8nCv6lg" position="522.0,102.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ww6lorD3EeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_Ww6lo7D3EeyDG4Y8nCv6lg" name="nome">
+      <modelElement href="programacaojava.uml#_VY64BrD3EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_Ww6lpLD3EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_VY64B7D3EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_Ww6lpbD3EeyDG4Y8nCv6lg" label="~"/>
+      <cardinality xmi:id="_Ww6lprD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_Ww6lp7D3EeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ww6lqLD3EeyDG4Y8nCv6lg" name="MenuItem">
+      <modelElement href="programacaojava.uml#_VVMOgbD3EeyDG4Y8nCv6lg"/>
+      <keywords xmi:id="_Ww6lqbD3EeyDG4Y8nCv6lg" keyword="create"/>
+      <visibility xmi:id="_Ww6lqrD3EeyDG4Y8nCv6lg" label="~"/>
+      <cardinality xmi:id="_Ww6lq7D3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ww6lrLD3EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_VVMOhbD3EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_Ww6lrbD3EeyDG4Y8nCv6lg" name="MenuItem">
+          <modelElement href="programacaojava.uml#_VVMOgLD3EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ww6lrrD3EeyDG4Y8nCv6lg" name="nome">
+        <modelElement href="programacaojava.uml#_VVMOgrD3EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_Ww6lr7D3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ww6lsLD3EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WxB6YLD3EeyDG4Y8nCv6lg" name="MostraMenu">
+    <modelElement href="programacaojava.uml#_VVNcobD3EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_WxB6YbD3EeyDG4Y8nCv6lg" position="350.0,19.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WxB6YrD3EeyDG4Y8nCv6lg" label="+"/>
+    <operations xmi:id="_WxB6Y7D3EeyDG4Y8nCv6lg" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_VVNcorD3EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_WxB6ZLD3EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_VVNcpLD3EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_WxB6ZbD3EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_WxB6ZrD3EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WxB6Z7D3EeyDG4Y8nCv6lg" name="args">
+        <modelElement href="programacaojava.uml#_VVNco7D3EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_WxB6aLD3EeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WxB6abD3EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

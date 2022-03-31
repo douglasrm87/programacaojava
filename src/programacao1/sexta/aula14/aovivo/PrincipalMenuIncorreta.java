@@ -36,7 +36,7 @@ public class PrincipalMenuIncorreta {
 
 				c.setP(p);
 
-				System.out.println("Cliente completo: " + c);
+				System.out.println("Editor completo: " + c);
 
 				break;
 			case 3:

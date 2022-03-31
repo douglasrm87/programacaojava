@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MinhaLista {
 	public static void main(String[] args) {
-//		List lista = new ArrayList();// formato livre
+//		CompListaItens lista = new ArrayList();// formato livre
 		// Generics ou Tipos Parametrizados
 		List <Integer> lista = new ArrayList<>(5);// formato Generics
 		

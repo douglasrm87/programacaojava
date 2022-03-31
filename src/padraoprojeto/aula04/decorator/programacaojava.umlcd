@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_l9nqQLEAEeyZAL-ZAH-Pvw">
+  <modelElement href="programacaojava.uml#_l8vggLEAEeyZAL-ZAH-Pvw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pO2xgLEAEeyZAL-ZAH-Pvw" sourceAnchor="229.0,0.0" targetAnchor="0.0,42.0" target="_pO2KcLEAEeyZAL-ZAH-Pvw" source="_pO5NwLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mVibBLEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_w17QkLEAEeyZAL-ZAH-Pvw" sourceY="-98" targetX="-241"/>
+    <stereotypes xmi:id="_pO3_o7EAEeyZAL-ZAH-Pvw" name="Reference">
+      <modelElement href="programacaojava.uml#_mVibBrEAEeyZAL-ZAH-Pvw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pO3_oLEAEeyZAL-ZAH-Pvw" text="">
+      <visualProperties xmi:id="_pQcs8LEAEeyZAL-ZAH-Pvw" position="100.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pO3_obEAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_mVibBbEAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="_pQcF5rEAEeyZAL-ZAH-Pvw" position="1.0,-57.0"/>
+      <visibility xmi:id="_pO4msbEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO4msLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pO3_orEAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="specialIcecream" navigable="true">
+      <modelElement href="programacaojava.uml#_mU9zQbEAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="_pQdUALEAEeyZAL-ZAH-Pvw" position="-200.0,0.9999999999999858"/>
+      <visibility xmi:id="_pO4ms7EAEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_pO4msrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pO3YkLEAEeyZAL-ZAH-Pvw" sourceAnchor="259.0,0.0" targetAnchor="110.0,85.0" dashed="true" superClass="_pO2KcLEAEeyZAL-ZAH-Pvw" subClass="_pO5NwLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mUcO2LEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_w17QkbEAEeyZAL-ZAH-Pvw" sourceY="-28" targetX="-321" targetY="27"/>
+    <bendpoints xmi:id="_w17QkrEAEeyZAL-ZAH-Pvw" sourceX="321" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pO3YkbEAEeyZAL-ZAH-Pvw" sourceAnchor="484.0,67.0" targetAnchor="0.0,43.0" superClass="_pO5NwLEAEeyZAL-ZAH-Pvw" subClass="_pOzuMLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mUcO17EAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_w16pgLEAEeyZAL-ZAH-Pvw" sourceX="22" targetX="-22" targetY="-111"/>
+    <bendpoints xmi:id="_w16pgbEAEeyZAL-ZAH-Pvw" sourceX="22" sourceY="111" targetX="-22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pO7C8LEAEeyZAL-ZAH-Pvw" sourceAnchor="470.0,69.0" targetAnchor="0.0,43.0" superClass="_pO5NwLEAEeyZAL-ZAH-Pvw" subClass="_pO7C8bEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mUc16bEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_w16pgrEAEeyZAL-ZAH-Pvw" sourceX="27" targetX="-22" targetY="58"/>
+    <bendpoints xmi:id="_w16pg7EAEeyZAL-ZAH-Pvw" sourceX="27" sourceY="-58" targetX="-22"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pO8RELEAEeyZAL-ZAH-Pvw" sourceAnchor="129.0,0.0" targetAnchor="110.0,85.0" dashed="true" superClass="_pO2KcLEAEeyZAL-ZAH-Pvw" subClass="_pO84ILEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mUc16rEAEeyZAL-ZAH-Pvw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pOzuMLEAEeyZAL-ZAH-Pvw" name="HoneyDecorator" generalizations="_pO3YkbEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mQx22rEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pOzuMbEAEeyZAL-ZAH-Pvw" position="173.0,17.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pOzuMrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_pOzuM7EAEeyZAL-ZAH-Pvw" name="makeIcecream">
+      <modelElement href="programacaojava.uml#_mQyd4LEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pOzuNLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pOzuNbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pOzuNrEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQyd4bEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pOzuN7EAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pOzuOLEAEeyZAL-ZAH-Pvw" name="addHoney">
+      <modelElement href="programacaojava.uml#_mQyd4rEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pOzuObEAEeyZAL-ZAH-Pvw" label="-"/>
+      <cardinality xmi:id="_pOzuOrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pOzuO7EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQyd47EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pOzuPLEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pOzuPbEAEeyZAL-ZAH-Pvw" name="HoneyDecorator">
+      <modelElement href="programacaojava.uml#_mUcO0rEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_pOzuPrEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_pOzuP7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO0VQLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO0VQbEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mUcO1rEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO0VQrEAEeyZAL-ZAH-Pvw" name="HoneyDecorator">
+          <modelElement href="programacaojava.uml#_mQx22rEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pO0VQ7EAEeyZAL-ZAH-Pvw" name="specialIcecream">
+        <modelElement href="programacaojava.uml#_mUcO07EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_pO0VRLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_pO0VRbEAEeyZAL-ZAH-Pvw" name="Icecream">
+          <modelElement href="programacaojava.uml#_mQyd5LEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pO7C8bEAEeyZAL-ZAH-Pvw" name="NuttyDecorator" generalizations="_pO7C8LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mQzE9LEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pO7C8rEAEeyZAL-ZAH-Pvw" position="182.0,184.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pO7C87EAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_pO7C9LEAEeyZAL-ZAH-Pvw" name="makeIcecream">
+      <modelElement href="programacaojava.uml#_mQzsALEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pO7C9bEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO7C9rEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO7C97EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQzsAbEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO7C-LEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pO7C-bEAEeyZAL-ZAH-Pvw" name="addNuts">
+      <modelElement href="programacaojava.uml#_mQzsArEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pO7C-rEAEeyZAL-ZAH-Pvw" label="-"/>
+      <cardinality xmi:id="_pO7qALEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO7qAbEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQzsA7EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO7qArEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pO7qA7EAEeyZAL-ZAH-Pvw" name="NuttyDecorator">
+      <modelElement href="programacaojava.uml#_mUc15LEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_pO7qBLEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_pO7qBbEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO7qBrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO7qB7EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mUc16LEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO7qCLEAEeyZAL-ZAH-Pvw" name="NuttyDecorator">
+          <modelElement href="programacaojava.uml#_mQzE9LEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pO7qCbEAEeyZAL-ZAH-Pvw" name="specialIcecream">
+        <modelElement href="programacaojava.uml#_mUc15bEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_pO7qCrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_pO7qC7EAEeyZAL-ZAH-Pvw" name="Icecream">
+          <modelElement href="programacaojava.uml#_mQyd5LEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pO5NwLEAEeyZAL-ZAH-Pvw" name="IcecreamDecorator" abstractClass="true" associationsOut="_pO2xgLEAEeyZAL-ZAH-Pvw" generalizations="_pO3YkLEAEeyZAL-ZAH-Pvw" subclassedBy="_pO3YkbEAEeyZAL-ZAH-Pvw _pO7C8LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mQzE8bEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pO5NwbEAEeyZAL-ZAH-Pvw" position="701.0,152.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pO5NwrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="_pO5Nw7EAEeyZAL-ZAH-Pvw" name="specialIcecream">
+      <modelElement href="programacaojava.uml#_mU9zQbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_pO5NxLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_mU9zQrEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_pO5NxbEAEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="_pO5NxrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="_pO5Nx7EAEeyZAL-ZAH-Pvw" name="Icecream">
+        <modelElement href="programacaojava.uml#_mQyd5LEAEeyZAL-ZAH-Pvw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pO5NyLEAEeyZAL-ZAH-Pvw" name="makeIcecream">
+      <modelElement href="programacaojava.uml#_mQzE8rEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pO5NybEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO5NyrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO5Ny7EAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQzE87EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO5NzLEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pO5NzbEAEeyZAL-ZAH-Pvw" name="IcecreamDecorator">
+      <modelElement href="programacaojava.uml#_mUcO2bEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="_pO5NzrEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="_pO5Nz7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO5N0LEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO5N0bEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mUc147EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO5N0rEAEeyZAL-ZAH-Pvw" name="IcecreamDecorator">
+          <modelElement href="programacaojava.uml#_mQzE8bEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pO5N07EAEeyZAL-ZAH-Pvw" name="specialIcecream">
+        <modelElement href="programacaojava.uml#_mUc14LEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_pO5N1LEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="_pO5N1bEAEeyZAL-ZAH-Pvw" name="Icecream">
+          <modelElement href="programacaojava.uml#_mQyd5LEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_pO2KcLEAEeyZAL-ZAH-Pvw" name="Icecream" associationsIn="_pO2xgLEAEeyZAL-ZAH-Pvw" subclassedBy="_pO3YkLEAEeyZAL-ZAH-Pvw _pO8RELEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mQyd5LEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pO2KcbEAEeyZAL-ZAH-Pvw" position="1171.0,12.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pO2KcrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_pO2Kc7EAEeyZAL-ZAH-Pvw" name="makeIcecream">
+      <modelElement href="programacaojava.uml#_mQyd5bEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="_pO2KdLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO2KdbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO2KdrEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQzE8LEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO2Kd7EAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pO84ILEAEeyZAL-ZAH-Pvw" name="SimpleIcecream" generalizations="_pO8RELEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_mQzsBLEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pO84IbEAEeyZAL-ZAH-Pvw" position="1152.0,269.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pO84IrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_pO84I7EAEeyZAL-ZAH-Pvw" name="makeIcecream">
+      <modelElement href="programacaojava.uml#_mQ0TELEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_pO84JLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_mQ0TErEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pO84JbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_mQ0TE7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_pO84JrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO84J7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pO84KLEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_mQ0TEbEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="_pO84KbEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pO9fMLEAEeyZAL-ZAH-Pvw" name="TestDecorator">
+    <modelElement href="programacaojava.uml#_mQ0TFbEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="_pO9fMbEAEeyZAL-ZAH-Pvw" position="762.0,283.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pO9fMrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="_pO9fM7EAEeyZAL-ZAH-Pvw" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_mQ0TFrEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="_pO9fNLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_mQ06ILEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="_pO9fNbEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="_pO9fNrEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_pO9fN7EAEeyZAL-ZAH-Pvw" name="args">
+        <modelElement href="programacaojava.uml#_mQ0TF7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="_pO9fOLEAEeyZAL-ZAH-Pvw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_pO9fObEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

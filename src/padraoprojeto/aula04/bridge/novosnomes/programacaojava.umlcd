@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_9ZJgkLEAEeyZAL-ZAH-Pvw">
+  <modelElement href="programacaojava.uml#_9YdkELEAEeyZAL-ZAH-Pvw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__ofF8LEAEeyZAL-ZAH-Pvw" sourceAnchor="197.0,0.0" targetAnchor="161.0,108.0" target="__ojXYLEAEeyZAL-ZAH-Pvw" source="__ofF-bEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9wRnJ7EAEeyZAL-ZAH-Pvw"/>
+    <stereotypes xmi:id="__ofF8bEAEeyZAL-ZAH-Pvw" name="Reference">
+      <modelElement href="programacaojava.uml#_9wSOMLEAEeyZAL-ZAH-Pvw"/>
+    </stereotypes>
+    <nameVisual xmi:id="__ofF8rEAEeyZAL-ZAH-Pvw" text="">
+      <visualProperties xmi:id="__rL0oLEAEeyZAL-ZAH-Pvw" position="2.0,4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__ofF87EAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_9wRnKLEAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="__rLNmrEAEeyZAL-ZAH-Pvw" position="-18.0,-75.0"/>
+      <visibility xmi:id="__ofF9LEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ofF9bEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__ofF9rEAEeyZAL-ZAH-Pvw" aggregationKind="NONE" name="janela" navigable="true">
+      <modelElement href="programacaojava.uml#_9voG47EAEeyZAL-ZAH-Pvw"/>
+      <visualProperties xmi:id="__rL0obEAEeyZAL-ZAH-Pvw" position="41.0,1.0"/>
+      <visibility xmi:id="__ofF97EAEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="__ofF-LEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__ogUELEAEeyZAL-ZAH-Pvw" sourceAnchor="0.0,43.0" targetAnchor="373.0,66.0" superClass="__ofF-bEAEeyZAL-ZAH-Pvw" subClass="__og7ILEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9vC4FbEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_NXXQwLEBEeyZAL-ZAH-Pvw" sourceX="-27" targetX="23" targetY="-233"/>
+    <bendpoints xmi:id="_NXXQwbEBEeyZAL-ZAH-Pvw" sourceX="-27" sourceY="233" targetX="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__oiJQLEAEeyZAL-ZAH-Pvw" sourceAnchor="0.0,51.0" targetAnchor="373.0,66.0" superClass="__ofF-bEAEeyZAL-ZAH-Pvw" subClass="__oiJQbEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9vC4G7EAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_NXXQwrEBEeyZAL-ZAH-Pvw" sourceX="-23" targetX="23" targetY="-107"/>
+    <bendpoints xmi:id="_NXXQw7EBEeyZAL-ZAH-Pvw" sourceX="-23" sourceY="107" targetX="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__olMkLEAEeyZAL-ZAH-Pvw" sourceAnchor="289.0,31.0" targetAnchor="0.0,54.0" dashed="true" superClass="__ojXYLEAEeyZAL-ZAH-Pvw" subClass="__olzoLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9vC4HLEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_NXXQxLEBEeyZAL-ZAH-Pvw" sourceX="57" targetX="-49" targetY="-30"/>
+    <bendpoints xmi:id="_NXXQxbEBEeyZAL-ZAH-Pvw" sourceX="57" sourceY="30" targetX="-49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__onBwLEAEeyZAL-ZAH-Pvw" sourceAnchor="289.0,43.0" targetAnchor="0.0,54.0" dashed="true" superClass="__ojXYLEAEeyZAL-ZAH-Pvw" subClass="__ono0LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9vC4HbEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_NXXQxrEBEeyZAL-ZAH-Pvw" sourceX="30" targetX="-49" targetY="208"/>
+    <bendpoints xmi:id="_NXXQx7EBEeyZAL-ZAH-Pvw" sourceX="30" sourceY="-208" targetX="-49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__oo28LEAEeyZAL-ZAH-Pvw" sourceAnchor="289.0,41.0" targetAnchor="0.0,54.0" dashed="true" superClass="__ojXYLEAEeyZAL-ZAH-Pvw" subClass="__opeALEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9vC4HrEAEeyZAL-ZAH-Pvw"/>
+    <bendpoints xmi:id="_NXXQyLEBEeyZAL-ZAH-Pvw" sourceX="50" targetX="-49" targetY="97"/>
+    <bendpoints xmi:id="_NXXQybEBEeyZAL-ZAH-Pvw" sourceX="50" sourceY="-97" targetX="-49"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__ofF-bEAEeyZAL-ZAH-Pvw" name="JanelaAbstrata" abstractClass="true" associationsOut="__ofF8LEAEeyZAL-ZAH-Pvw" subclassedBy="__ogUELEAEeyZAL-ZAH-Pvw __oiJQLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rbjY7EAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__ofF-rEAEeyZAL-ZAH-Pvw" position="431.0,243.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__ofF-7EAEeyZAL-ZAH-Pvw" label="+"/>
+    <attributes xmi:id="__ofF_LEAEeyZAL-ZAH-Pvw" name="janela">
+      <modelElement href="programacaojava.uml#_9voG47EAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__ofF_bEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9voG5LEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__ofF_rEAEeyZAL-ZAH-Pvw" label="#"/>
+      <cardinality xmi:id="__ofF_7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <type xmi:id="__ofGALEAEeyZAL-ZAH-Pvw" name="SOInterface">
+        <modelElement href="programacaojava.uml#_9rdYk7EAEeyZAL-ZAH-Pvw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__ofGAbEAEeyZAL-ZAH-Pvw" name="desenharJanela">
+      <modelElement href="programacaojava.uml#_9rbjZLEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__ofGArEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ofGA7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ofGBLEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rbjZbEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ofGBbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ofGBrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__ofGB7EAEeyZAL-ZAH-Pvw" name="desenharBotao">
+      <modelElement href="programacaojava.uml#_9rbjZrEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__ofGCLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ofGCbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ofGCrEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rbjZ7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ofGC7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ofGDLEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__ofGDbEAEeyZAL-ZAH-Pvw" abstractOperation="true" name="desenhar">
+      <modelElement href="programacaojava.uml#_9rcKcLEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__ofGDrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ofGD7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__ofGELEAEeyZAL-ZAH-Pvw" name="JanelaAbstrata">
+      <modelElement href="programacaojava.uml#_9vCRB7EAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="__ofGEbEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="__ofGErEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ofGE7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__ofGFLEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_9vCRC7EAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="__ofGFbEAEeyZAL-ZAH-Pvw" name="JanelaAbstrata">
+          <modelElement href="programacaojava.uml#_9rbjY7EAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__ofGFrEAEeyZAL-ZAH-Pvw" name="j">
+        <modelElement href="programacaojava.uml#_9vCRCLEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ofGF7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ofGGLEAEeyZAL-ZAH-Pvw" name="SOInterface">
+          <modelElement href="programacaojava.uml#_9rdYk7EAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__og7ILEAEeyZAL-ZAH-Pvw" name="JanelaAviso" generalizations="__ogUELEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rcKcbEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__og7IbEAEeyZAL-ZAH-Pvw" position="854.0,33.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__og7IrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__og7I7EAEeyZAL-ZAH-Pvw" name="desenhar">
+      <modelElement href="programacaojava.uml#_9rcKcrEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__og7JLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rcKc7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__og7JbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rcKdLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__og7JrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__og7J7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__og7KLEAEeyZAL-ZAH-Pvw" name="JanelaAviso">
+      <modelElement href="programacaojava.uml#_9vC4ELEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="__og7KbEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="__og7KrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__og7K7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__og7LLEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_9vC4FLEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="__og7LbEAEeyZAL-ZAH-Pvw" name="JanelaAviso">
+          <modelElement href="programacaojava.uml#_9rcKcbEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__og7LrEAEeyZAL-ZAH-Pvw" name="j">
+        <modelElement href="programacaojava.uml#_9vC4EbEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__og7L7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__og7MLEAEeyZAL-ZAH-Pvw" name="SOInterface">
+          <modelElement href="programacaojava.uml#_9rdYk7EAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__oiJQbEAEeyZAL-ZAH-Pvw" name="JanelaDialogo" generalizations="__oiJQLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rcxgbEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__oiJQrEAEeyZAL-ZAH-Pvw" position="850.0,151.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__oiJQ7EAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__oiJRLEAEeyZAL-ZAH-Pvw" name="desenhar">
+      <modelElement href="programacaojava.uml#_9rcxgrEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__oiJRbEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rcxg7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__oiJRrEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rcxhLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__oiJR7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__oiJSLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__oiJSbEAEeyZAL-ZAH-Pvw" name="JanelaDialogo">
+      <modelElement href="programacaojava.uml#_9vC4FrEAEeyZAL-ZAH-Pvw"/>
+      <keywords xmi:id="__oiJSrEAEeyZAL-ZAH-Pvw" keyword="create"/>
+      <visibility xmi:id="__oiJS7EAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__oiJTLEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__oiJTbEAEeyZAL-ZAH-Pvw">
+        <modelElement href="programacaojava.uml#_9vC4GrEAEeyZAL-ZAH-Pvw"/>
+        <type xmi:id="__oiJTrEAEeyZAL-ZAH-Pvw" name="JanelaDialogo">
+          <modelElement href="programacaojava.uml#_9rcxgbEAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__oiJT7EAEeyZAL-ZAH-Pvw" name="j">
+        <modelElement href="programacaojava.uml#_9vC4F7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__oiJULEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__oiJUbEAEeyZAL-ZAH-Pvw" name="SOInterface">
+          <modelElement href="programacaojava.uml#_9rdYk7EAEeyZAL-ZAH-Pvw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="__ojXYLEAEeyZAL-ZAH-Pvw" name="SOInterface" associationsIn="__ofF8LEAEeyZAL-ZAH-Pvw" subclassedBy="__olMkLEAEeyZAL-ZAH-Pvw __onBwLEAEeyZAL-ZAH-Pvw __oo28LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rdYk7EAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__ojXYbEAEeyZAL-ZAH-Pvw" position="467.0,21.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__ojXYrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__ojXY7EAEeyZAL-ZAH-Pvw" name="desenharJanela">
+      <modelElement href="programacaojava.uml#_9rdYlLEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__ojXZLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ojXZbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ojXZrEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rdYlbEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ojXZ7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ojXaLEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__ojXabEAEeyZAL-ZAH-Pvw" name="desenharBotao">
+      <modelElement href="programacaojava.uml#_9rdYlrEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__ojXarEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ojXa7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ojXbLEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rdYl7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ojXbbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ojXbrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__olzoLEAEeyZAL-ZAH-Pvw" name="SOLinux" generalizations="__olMkLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rdYmLEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__olzobEAEeyZAL-ZAH-Pvw" position="72.0,14.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__olzorEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__olzo7EAEeyZAL-ZAH-Pvw" name="desenharJanela">
+      <modelElement href="programacaojava.uml#_9rd_oLEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__olzpLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rd_orEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__olzpbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rd_o7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__olzprEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__olzp7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__olzqLEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rd_obEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__olzqbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__olzqrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__olzq7EAEeyZAL-ZAH-Pvw" name="desenharBotao">
+      <modelElement href="programacaojava.uml#_9rd_pbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__olzrLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rd_p7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__olzrbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rd_qLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__olzrrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__olzr7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__olzsLEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rd_prEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__olzsbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__olzsrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__ono0LEAEeyZAL-ZAH-Pvw" name="SOMac" generalizations="__onBwLEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9remsLEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__ono0bEAEeyZAL-ZAH-Pvw" position="99.0,240.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__ono0rEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__ono07EAEeyZAL-ZAH-Pvw" name="desenharJanela">
+      <modelElement href="programacaojava.uml#_9remsbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__ono1LEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rems7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__ono1bEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9remtLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__ono1rEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ono17EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ono2LEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9remsrEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ono2bEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ono2rEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__ono27EAEeyZAL-ZAH-Pvw" name="desenharBotao">
+      <modelElement href="programacaojava.uml#_9remtrEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__ono3LEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9remuLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__ono3bEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9remubEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__ono3rEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__ono37EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__ono4LEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9remt7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__ono4bEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__ono4rEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__opeALEAEeyZAL-ZAH-Pvw" name="SOWindows" generalizations="__oo28LEAEeyZAL-ZAH-Pvw">
+    <modelElement href="programacaojava.uml#_9rfNwLEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__opeAbEAEeyZAL-ZAH-Pvw" position="79.0,131.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__opeArEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__opeA7EAEeyZAL-ZAH-Pvw" name="desenharJanela">
+      <modelElement href="programacaojava.uml#_9rfNwbEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__opeBLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rfNw7EAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__opeBbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rfNxLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__opeBrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__opeB7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__opeCLEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rfNwrEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__opeCbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__opeCrEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__opeC7EAEeyZAL-ZAH-Pvw" name="desenharBotao">
+      <modelElement href="programacaojava.uml#_9rfNxrEAEeyZAL-ZAH-Pvw"/>
+      <stereotypes xmi:id="__opeDLEAEeyZAL-ZAH-Pvw" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_9rfNyLEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <stereotypes xmi:id="__opeDbEAEeyZAL-ZAH-Pvw" name="Annotations">
+        <modelElement href="programacaojava.uml#_9rf00LEAEeyZAL-ZAH-Pvw"/>
+      </stereotypes>
+      <visibility xmi:id="__opeDrEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__opeD7EAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__opeELEAEeyZAL-ZAH-Pvw" name="titulo">
+        <modelElement href="programacaojava.uml#_9rfNx7EAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__opeEbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+        <type xmi:id="__opeErEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__oiwULEAEeyZAL-ZAH-Pvw" name="Principal">
+    <modelElement href="programacaojava.uml#_9rcxhrEAEeyZAL-ZAH-Pvw"/>
+    <visualProperties xmi:id="__oiwUbEAEeyZAL-ZAH-Pvw" position="480.0,405.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__oiwUrEAEeyZAL-ZAH-Pvw" label="+"/>
+    <operations xmi:id="__oiwU7EAEeyZAL-ZAH-Pvw" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_9rdYkLEAEeyZAL-ZAH-Pvw"/>
+      <visibility xmi:id="__oiwVLEAEeyZAL-ZAH-Pvw" label="+"/>
+      <cardinality xmi:id="__oiwVbEAEeyZAL-ZAH-Pvw" label="1" max="1" min="1"/>
+      <parameters xmi:id="__oiwVrEAEeyZAL-ZAH-Pvw" name="args">
+        <modelElement href="programacaojava.uml#_9rdYkbEAEeyZAL-ZAH-Pvw"/>
+        <cardinality xmi:id="__oiwV7EAEeyZAL-ZAH-Pvw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="__oiwWLEAEeyZAL-ZAH-Pvw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aUlHYLD8EeyDG4Y8nCv6lg">
+  <modelElement href="programacaojava.uml#_aTWYULD8EeyDG4Y8nCv6lg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cs9UALD8EeyDG4Y8nCv6lg" sourceAnchor="138.0,0.0" targetAnchor="117.0,108.0" dashed="true" superClass="_cs8s8LD8EeyDG4Y8nCv6lg" subClass="_cs97ELD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_bcsmBLD8EeyDG4Y8nCv6lg"/>
+    <bendpoints xmi:id="_qBByIrD8EeyDG4Y8nCv6lg" sourceY="-34" targetX="-395" targetY="49"/>
+    <bendpoints xmi:id="_qBByI7D8EeyDG4Y8nCv6lg" sourceX="395" sourceY="-34" targetY="49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cs_JMLD8EeyDG4Y8nCv6lg" sourceAnchor="277.0,0.0" targetAnchor="117.0,108.0" dashed="true" superClass="_cs8s8LD8EeyDG4Y8nCv6lg" subClass="_cs_wQLD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_bctNELD8EeyDG4Y8nCv6lg"/>
+    <bendpoints xmi:id="_qBByILD8EeyDG4Y8nCv6lg" sourceY="-30" targetX="133" targetY="49"/>
+    <bendpoints xmi:id="_qBByIbD8EeyDG4Y8nCv6lg" sourceX="-133" sourceY="-30" targetY="49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cs_JMbD8EeyDG4Y8nCv6lg" sourceAnchor="0.0,73.0" targetAnchor="276.0,69.0" superClass="_cs97ELD8EeyDG4Y8nCv6lg" subClass="_cs_wQLD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_bctNEbD8EeyDG4Y8nCv6lg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_cs8s8LD8EeyDG4Y8nCv6lg" name="BancoInterface" subclassedBy="_cs9UALD8EeyDG4Y8nCv6lg _cs_JMLD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_baxTYLD8EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_cs8s8bD8EeyDG4Y8nCv6lg" position="71.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cs8s8rD8EeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_cs8s87D8EeyDG4Y8nCv6lg" name="numeroDeUsuarios">
+      <modelElement href="programacaojava.uml#_baxTYbD8EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_cs8s9LD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs8s9bD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs8s9rD8EeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cs8s97D8EeyDG4Y8nCv6lg" name="usuariosConectados">
+      <modelElement href="programacaojava.uml#_baxTYrD8EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_cs8s-LD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs8s-bD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs8s-rD8EeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ctA-YLD8EeyDG4Y8nCv6lg" name="Cliente">
+    <modelElement href="programacaojava.uml#_bazIkLD8EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_ctA-YbD8EeyDG4Y8nCv6lg" position="-175.0,51.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ctA-YrD8EeyDG4Y8nCv6lg" label="+"/>
+    <operations xmi:id="_ctA-Y7D8EeyDG4Y8nCv6lg" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_bazIkbD8EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_ctA-ZLD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_ctA-ZbD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ctA-ZrD8EeyDG4Y8nCv6lg" name="args">
+        <modelElement href="programacaojava.uml#_bazIkrD8EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_ctA-Z7D8EeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ctA-aLD8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cs_wQLD8EeyDG4Y8nCv6lg" name="BancousuarioProxy" generalizations="_cs_JMLD8EeyDG4Y8nCv6lg _cs_JMbD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_bax6crD8EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_cs_wQbD8EeyDG4Y8nCv6lg" position="44.0,229.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cs_wQrD8EeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_cs_wQ7D8EeyDG4Y8nCv6lg" name="usuario">
+      <modelElement href="programacaojava.uml#_bdLHK7D8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs_wRLD8EeyDG4Y8nCv6lg" name="MultiDeclaration">
+        <modelElement href="programacaojava.uml#_bdLHLLD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cs_wRbD8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bdLHLbD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs_wRrD8EeyDG4Y8nCv6lg" label="#"/>
+      <cardinality xmi:id="_cs_wR7D8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs_wSLD8EeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cs_wSbD8EeyDG4Y8nCv6lg" name="senha">
+      <modelElement href="programacaojava.uml#_bdeCE7D8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs_wSrD8EeyDG4Y8nCv6lg" name="MultiDeclaration">
+        <modelElement href="programacaojava.uml#_bdeCFLD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cs_wS7D8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bdeCFbD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs_wTLD8EeyDG4Y8nCv6lg" label="#"/>
+      <cardinality xmi:id="_cs_wTbD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs_wTrD8EeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cs_wT7D8EeyDG4Y8nCv6lg" name="BancousuarioProxy">
+      <modelElement href="programacaojava.uml#_bax6c7D8EeyDG4Y8nCv6lg"/>
+      <keywords xmi:id="_cs_wULD8EeyDG4Y8nCv6lg" keyword="create"/>
+      <visibility xmi:id="_cs_wUbD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs_wUrD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs_wU7D8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_bax6eLD8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs_wVLD8EeyDG4Y8nCv6lg" name="BancousuarioProxy">
+          <modelElement href="programacaojava.uml#_bax6crD8EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_cs_wVbD8EeyDG4Y8nCv6lg" name="usuario">
+        <modelElement href="programacaojava.uml#_bax6dLD8EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_cs_wVrD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_cs_wV7D8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_cs_wWLD8EeyDG4Y8nCv6lg" name="senha">
+        <modelElement href="programacaojava.uml#_bax6dbD8EeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_cs_wWbD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_cs_wWrD8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_cs_wW7D8EeyDG4Y8nCv6lg" name="getNumeroDeUsuarios">
+      <modelElement href="programacaojava.uml#_bax6ebD8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs_wXLD8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bayhgbD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cs_wXbD8EeyDG4Y8nCv6lg" name="Annotations">
+        <modelElement href="programacaojava.uml#_bayhgrD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs_wXrD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs_wX7D8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs_wYLD8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_bayhgLD8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs_wYbD8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cs_wYrD8EeyDG4Y8nCv6lg" name="getUsuariosConectados">
+      <modelElement href="programacaojava.uml#_bayhhLD8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs_wY7D8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bayhhrD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cs_wZLD8EeyDG4Y8nCv6lg" name="Annotations">
+        <modelElement href="programacaojava.uml#_bayhh7D8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs_wZbD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs_wZrD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs_wZ7D8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_bayhhbD8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs_waLD8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cs_wabD8EeyDG4Y8nCv6lg" name="temPermissaoDeAcesso">
+      <modelElement href="programacaojava.uml#_bayhibD8EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_cs_warD8EeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_cs_wa7D8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs_wbLD8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_bayhirD8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs_wbbD8EeyDG4Y8nCv6lg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cs97ELD8EeyDG4Y8nCv6lg" name="BancoUsuario" abstractClass="true" generalizations="_cs9UALD8EeyDG4Y8nCv6lg" subclassedBy="_cs_JMbD8EeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_baxTY7D8EeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_cs97EbD8EeyDG4Y8nCv6lg" position="-345.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cs97ErD8EeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_cs97E7D8EeyDG4Y8nCv6lg" name="quantidadeDeUsuarios">
+      <modelElement href="programacaojava.uml#_bdLHJbD8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs97FLD8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bdLHJrD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs97FbD8EeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_cs97FrD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs97F7D8EeyDG4Y8nCv6lg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_cs97GLD8EeyDG4Y8nCv6lg" name="usuariosConectados">
+      <modelElement href="programacaojava.uml#_bdLHJ7D8EeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_cs97GbD8EeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_bdLHKLD8EeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_cs97GrD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs97G7D8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_cs97HLD8EeyDG4Y8nCv6lg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cs97HbD8EeyDG4Y8nCv6lg" name="BancoUsuario">
+      <modelElement href="programacaojava.uml#_baxTZLD8EeyDG4Y8nCv6lg"/>
+      <keywords xmi:id="_cs97HrD8EeyDG4Y8nCv6lg" keyword="create"/>
+      <visibility xmi:id="_cs97H7D8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs97ILD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs97IbD8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_baxTZ7D8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs97IrD8EeyDG4Y8nCv6lg" name="BancoUsuario">
+          <modelElement href="programacaojava.uml#_baxTY7D8EeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cs97I7D8EeyDG4Y8nCv6lg" name="getNumeroDeUsuarios">
+      <modelElement href="programacaojava.uml#_bax6cLD8EeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_cs97JLD8EeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_cs97JbD8EeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cs97JrD8EeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_bax6cbD8EeyDG4Y8nCv6lg"/>
+        <type xmi:id="_cs97J7D8EeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

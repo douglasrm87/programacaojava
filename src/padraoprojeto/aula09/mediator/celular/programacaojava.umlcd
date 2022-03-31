@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jnlSILBfEeyWbPl7KTrxjg">
+  <modelElement href="programacaojava.uml#_jnBRcLBfEeyWbPl7KTrxjg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mhI5MLBfEeyWbPl7KTrxjg" sourceAnchor="0.0,61.0" targetAnchor="374.0,42.0" dashed="true" superClass="_mhGc8LBfEeyWbPl7KTrxjg" subClass="_mhI5OrBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_k1IDWbBfEeyWbPl7KTrxjg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mhI5MbBfEeyWbPl7KTrxjg" source="_mhI5OrBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_k3ASpLBfEeyWbPl7KTrxjg"/>
+    <stereotypes xmi:id="_mhI5MrBfEeyWbPl7KTrxjg" name="Reference">
+      <modelElement href="programacaojava.uml#_k3ASprBfEeyWbPl7KTrxjg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mhI5M7BfEeyWbPl7KTrxjg" text=""/>
+    <sourceRole xmi:id="_mhI5NLBfEeyWbPl7KTrxjg" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_k3ASpbBfEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_mhI5NbBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhI5NrBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mhI5N7BfEeyWbPl7KTrxjg" aggregationKind="NONE" name="contatos" navigable="true">
+      <modelElement href="programacaojava.uml#_k2FswbBfEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_-0-loLBhEeyWbPl7KTrxjg" name="Generics">
+        <modelElement href="programacaojava.uml#_k2FswrBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-0-lobBhEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_k2Fsw7BfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_mhI5OLBfEeyWbPl7KTrxjg" label="#"/>
+      <cardinality xmi:id="_mhI5ObBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FA2SALBiEeyWbPl7KTrxjg" sourceAnchor="0.0,54.0" targetAnchor="40.0,85.0" target="_mhGc8LBfEeyWbPl7KTrxjg" source="_GtkSgLBiEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_-VZtzrBhEeyWbPl7KTrxjg"/>
+    <bendpoints xmi:id="_PfeNBLBiEeyWbPl7KTrxjg" sourceX="-197" targetY="369"/>
+    <stereotypes xmi:id="_FA4HMLBiEeyWbPl7KTrxjg" name="Reference">
+      <modelElement href="programacaojava.uml#_-VZt0LBhEeyWbPl7KTrxjg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FA3gIrBiEeyWbPl7KTrxjg" text="">
+      <visualProperties xmi:id="_Gvp9OLBiEeyWbPl7KTrxjg" position="-43.0,-196.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_FA3gI7BiEeyWbPl7KTrxjg" aggregationKind="NONE" name="">
+      <modelElement href="programacaojava.uml#_-VZtz7BhEeyWbPl7KTrxjg"/>
+      <visualProperties xmi:id="_Gvp9N7BiEeyWbPl7KTrxjg" position="-31.0,2.0"/>
+      <visibility xmi:id="_FA4HMrBiEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_FA4HMbBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FA3gJLBiEeyWbPl7KTrxjg" aggregationKind="NONE" name="mediator" navigable="true">
+      <modelElement href="programacaojava.uml#_-VZtwLBhEeyWbPl7KTrxjg"/>
+      <visualProperties xmi:id="_Gvp9ObBiEeyWbPl7KTrxjg" position="-78.99999999999989,44.999999999999886"/>
+      <stereotypes xmi:id="_FA4HNbBiEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_-VZtwbBhEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_FA4HNLBiEeyWbPl7KTrxjg" label="#"/>
+      <cardinality xmi:id="_FA4HM7BiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FA25ErBiEeyWbPl7KTrxjg" sourceAnchor="167.0,86.0" targetAnchor="157.0,0.0" superClass="_GtkSgLBiEeyWbPl7KTrxjg" subClass="_mhEAsbBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_-VZtsbBhEeyWbPl7KTrxjg"/>
+    <bendpoints xmi:id="_PfeNALBiEeyWbPl7KTrxjg" sourceY="35" targetX="-172" targetY="-77"/>
+    <bendpoints xmi:id="_PfeNAbBiEeyWbPl7KTrxjg" sourceX="172" sourceY="35" targetY="-77"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FA3gILBiEeyWbPl7KTrxjg" sourceAnchor="414.0,53.0" targetAnchor="157.0,0.0" superClass="_GtkSgLBiEeyWbPl7KTrxjg" subClass="_mg-hILBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_-VZtsLBhEeyWbPl7KTrxjg"/>
+    <bendpoints xmi:id="_PfeNBbBiEeyWbPl7KTrxjg" sourceX="266" sourceY="4" targetX="503" targetY="-237"/>
+    <bendpoints xmi:id="_Rwt24LBiEeyWbPl7KTrxjg" sourceX="267" sourceY="84" targetX="504" targetY="-157"/>
+    <bendpoints xmi:id="_PfeNBrBiEeyWbPl7KTrxjg" sourceX="268" sourceY="161" targetX="505" targetY="-80"/>
+    <bendpoints xmi:id="_PfeNB7BiEeyWbPl7KTrxjg" sourceX="-237" sourceY="164" targetY="-77"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FA3gIbBiEeyWbPl7KTrxjg" sourceAnchor="210.0,86.0" targetAnchor="157.0,0.0" superClass="_GtkSgLBiEeyWbPl7KTrxjg" subClass="_mhLVcbBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_-VZtv7BhEeyWbPl7KTrxjg"/>
+    <bendpoints xmi:id="_PfeNArBiEeyWbPl7KTrxjg" sourceY="30" targetX="237" targetY="-77"/>
+    <bendpoints xmi:id="_PfeNA7BiEeyWbPl7KTrxjg" sourceX="-237" sourceY="30" targetY="-77"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mhGc8LBfEeyWbPl7KTrxjg" name="Mediator" associationsIn="_FA2SALBiEeyWbPl7KTrxjg" subclassedBy="_mhI5MLBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mhGc8bBfEeyWbPl7KTrxjg" position="-543.0,-40.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mhGc8rBfEeyWbPl7KTrxjg" label="+"/>
+    <operations xmi:id="_-0-lorBhEeyWbPl7KTrxjg" name="enviar">
+      <modelElement href="programacaojava.uml#_-VZtsrBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_-0-lq7BhEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_-0-lqrBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-0-lprBhEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_-VZts7BhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lvLBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-lp7BhEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-0-lqLBhEeyWbPl7KTrxjg" name="colleague">
+        <modelElement href="programacaojava.uml#_-VZttLBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lvbBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-lqbBhEeyWbPl7KTrxjg" name="Amigos">
+          <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mhEAsbBfEeyWbPl7KTrxjg" name="IOSColleague" generalizations="_FA25ErBiEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_kwQxhbBfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mhEAsrBfEeyWbPl7KTrxjg" position="-488.0,162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mhEAs7BfEeyWbPl7KTrxjg" label="+"/>
+    <operations xmi:id="_mhEAtLBfEeyWbPl7KTrxjg" name="receberMensagem">
+      <modelElement href="programacaojava.uml#_kwQxhrBfEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_mhEAtbBfEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_kwQxiLBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mhEAtrBfEeyWbPl7KTrxjg" name="Annotations">
+        <modelElement href="programacaojava.uml#_kwQxibBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_mhEAt7BfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhEAuLBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mhEAubBfEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_kwQxh7BfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mhEAurBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mhEAu7BfEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mhEAvLBfEeyWbPl7KTrxjg" name="IOSColleague">
+      <modelElement href="programacaojava.uml#_k1IDULBfEeyWbPl7KTrxjg"/>
+      <keywords xmi:id="_mhEAvbBfEeyWbPl7KTrxjg" keyword="create"/>
+      <visibility xmi:id="_mhEAvrBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhEAv7BfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mhEAwLBfEeyWbPl7KTrxjg">
+        <modelElement href="programacaojava.uml#_k1IDVLBfEeyWbPl7KTrxjg"/>
+        <type xmi:id="_mhEAwbBfEeyWbPl7KTrxjg" name="IOSColleague">
+          <modelElement href="programacaojava.uml#_kwQxhbBfEeyWbPl7KTrxjg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mhEAwrBfEeyWbPl7KTrxjg" name="m">
+        <modelElement href="programacaojava.uml#_k1IDUbBfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mhEAw7BfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mhEAxLBfEeyWbPl7KTrxjg" name="Mediator">
+          <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mhLVcbBfEeyWbPl7KTrxjg" name="SymbianColleague" generalizations="_FA3gIbBiEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_kwQxkbBfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mhLVcrBfEeyWbPl7KTrxjg" position="-122.0,167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mhLVc7BfEeyWbPl7KTrxjg" label="+"/>
+    <operations xmi:id="_mhLVdLBfEeyWbPl7KTrxjg" name="receberMensagem">
+      <modelElement href="programacaojava.uml#_kwQxkrBfEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_mhLVdbBfEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_kwQxlLBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mhLVdrBfEeyWbPl7KTrxjg" name="Annotations">
+        <modelElement href="programacaojava.uml#_kwQxlbBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_mhLVd7BfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhLVeLBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mhLVebBfEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_kwQxk7BfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mhLVerBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mhLVe7BfEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mhLVfLBfEeyWbPl7KTrxjg" name="SymbianColleague">
+      <modelElement href="programacaojava.uml#_k1IDZLBfEeyWbPl7KTrxjg"/>
+      <keywords xmi:id="_mhLVfbBfEeyWbPl7KTrxjg" keyword="create"/>
+      <visibility xmi:id="_mhLVfrBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhLVf7BfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mhLVgLBfEeyWbPl7KTrxjg">
+        <modelElement href="programacaojava.uml#_k1IDaLBfEeyWbPl7KTrxjg"/>
+        <type xmi:id="_mhLVgbBfEeyWbPl7KTrxjg" name="SymbianColleague">
+          <modelElement href="programacaojava.uml#_kwQxkbBfEeyWbPl7KTrxjg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mhLVgrBfEeyWbPl7KTrxjg" name="m">
+        <modelElement href="programacaojava.uml#_k1IDZbBfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mhLVg7BfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mhLVhLBfEeyWbPl7KTrxjg" name="Mediator">
+          <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GtkSgLBiEeyWbPl7KTrxjg" name="Amigos" abstractClass="true" associationsOut="_FA2SALBiEeyWbPl7KTrxjg" subclassedBy="_FA25ErBiEeyWbPl7KTrxjg _FA3gILBiEeyWbPl7KTrxjg _FA3gIbBiEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_GtkSgbBiEeyWbPl7KTrxjg" position="-306.0,360.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_GtkSgrBiEeyWbPl7KTrxjg" label="+"/>
+    <attributes xmi:id="_GtkSg7BiEeyWbPl7KTrxjg" name="mediator">
+      <modelElement href="programacaojava.uml#_-VZtwLBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_GtkShLBiEeyWbPl7KTrxjg" label="#"/>
+      <cardinality xmi:id="_GtkShbBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <type xmi:id="_GtkShrBiEeyWbPl7KTrxjg" name="Mediator">
+        <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GtkSh7BiEeyWbPl7KTrxjg" name="Amigos">
+      <modelElement href="programacaojava.uml#_-VTnEbBhEeyWbPl7KTrxjg"/>
+      <keywords xmi:id="_GtkSiLBiEeyWbPl7KTrxjg" keyword="create"/>
+      <visibility xmi:id="_GtkSibBiEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_GtkSirBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GtkSi7BiEeyWbPl7KTrxjg">
+        <modelElement href="programacaojava.uml#_-VTnFbBhEeyWbPl7KTrxjg"/>
+        <type xmi:id="_GtkSjLBiEeyWbPl7KTrxjg" name="Amigos">
+          <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GtkSjbBiEeyWbPl7KTrxjg" name="m">
+        <modelElement href="programacaojava.uml#_-VTnErBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_GtkSjrBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_GtkSj7BiEeyWbPl7KTrxjg" name="Mediator">
+          <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GtkSkLBiEeyWbPl7KTrxjg" name="enviarMensagem">
+      <modelElement href="programacaojava.uml#_-VTnFrBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_GtkSkbBiEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_GtkSkrBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GtkSk7BiEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_-VTnF7BhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_GtkSlLBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_GtkSlbBiEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GtkSlrBiEeyWbPl7KTrxjg" abstractOperation="true" name="receberMensagem">
+      <modelElement href="programacaojava.uml#_-VTnGLBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_GtkSl7BiEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_GtkSmLBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GtkSmbBiEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_-VTnGbBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_GtkSmrBiEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_GtkSm7BiEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mg-hILBfEeyWbPl7KTrxjg" name="AndroidColleague" generalizations="_FA3gILBiEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_kwQxdrBfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mg-hIbBfEeyWbPl7KTrxjg" position="-326.0,66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mg-hIrBfEeyWbPl7KTrxjg" label="+"/>
+    <operations xmi:id="_mg-hI7BfEeyWbPl7KTrxjg" name="receberMensagem">
+      <modelElement href="programacaojava.uml#_kwQxd7BfEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_mg-hJLBfEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_kwQxebBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mg-hJbBfEeyWbPl7KTrxjg" name="Annotations">
+        <modelElement href="programacaojava.uml#_kwQxerBfEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_mg-hJrBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mg-hJ7BfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mg-hKLBfEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_kwQxeLBfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mg-hKbBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mg-hKrBfEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mg-hK7BfEeyWbPl7KTrxjg" name="AndroidColleague">
+      <modelElement href="programacaojava.uml#_k1HcRrBfEeyWbPl7KTrxjg"/>
+      <keywords xmi:id="_mg-hLLBfEeyWbPl7KTrxjg" keyword="create"/>
+      <visibility xmi:id="_mg-hLbBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mg-hLrBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mg-hL7BfEeyWbPl7KTrxjg">
+        <modelElement href="programacaojava.uml#_k1HcSrBfEeyWbPl7KTrxjg"/>
+        <type xmi:id="_mg-hMLBfEeyWbPl7KTrxjg" name="AndroidColleague">
+          <modelElement href="programacaojava.uml#_kwQxdrBfEeyWbPl7KTrxjg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mg-hMbBfEeyWbPl7KTrxjg" name="m">
+        <modelElement href="programacaojava.uml#_k1HcR7BfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mg-hMrBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_mg-hM7BfEeyWbPl7KTrxjg" name="Mediator">
+          <modelElement href="programacaojava.uml#_kwQxi7BfEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mg_IMLBfEeyWbPl7KTrxjg" name="Cliente">
+    <modelElement href="programacaojava.uml#_kwQxfLBfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mg_IMbBfEeyWbPl7KTrxjg" position="56.0,353.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mg_IMrBfEeyWbPl7KTrxjg" label="+"/>
+    <operations xmi:id="_mg_IM7BfEeyWbPl7KTrxjg" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_kwQxfbBfEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_mg_INLBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mg_INbBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mg_INrBfEeyWbPl7KTrxjg" name="args">
+        <modelElement href="programacaojava.uml#_kwQxfrBfEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_mg_IN7BfEeyWbPl7KTrxjg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_mg_IOLBfEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mhI5OrBfEeyWbPl7KTrxjg" name="MensagemMediator" associationsOut="_mhI5MbBfEeyWbPl7KTrxjg" generalizations="_mhI5MLBfEeyWbPl7KTrxjg">
+    <modelElement href="programacaojava.uml#_kwQxjLBfEeyWbPl7KTrxjg"/>
+    <visualProperties xmi:id="_mhI5O7BfEeyWbPl7KTrxjg" position="140.0,-59.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mhI5PLBfEeyWbPl7KTrxjg" label="+"/>
+    <attributes xmi:id="_mhI5PbBfEeyWbPl7KTrxjg" name="contatos">
+      <modelElement href="programacaojava.uml#_k2FswbBfEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_-0-lwrBhEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_-0-lw7BhEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-1EFMLBhEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_-1EFMbBhEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-1EFMrBhEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_-1EFM7BhEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_FA5VULBiEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_FA5VUbBiEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_FA5VUrBiEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_FA5VU7BiEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_FA58YLBiEeyWbPl7KTrxjg" name="Generics"/>
+      <stereotypes xmi:id="_FA58YbBiEeyWbPl7KTrxjg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_mhI5QLBfEeyWbPl7KTrxjg" label="#"/>
+      <cardinality xmi:id="_mhI5QbBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <type xmi:id="_mhI5QrBfEeyWbPl7KTrxjg" name="ArrayList">
+        <modelElement href="programacaojava.uml#_j-rji7BfEeyWbPl7KTrxjg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mhI5Q7BfEeyWbPl7KTrxjg" name="MensagemMediator">
+      <modelElement href="programacaojava.uml#_kwQxjbBfEeyWbPl7KTrxjg"/>
+      <keywords xmi:id="_mhI5RLBfEeyWbPl7KTrxjg" keyword="create"/>
+      <visibility xmi:id="_mhI5RbBfEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_mhI5RrBfEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mhI5R7BfEeyWbPl7KTrxjg">
+        <modelElement href="programacaojava.uml#_kwQxkLBfEeyWbPl7KTrxjg"/>
+        <type xmi:id="_mhI5SLBfEeyWbPl7KTrxjg" name="MensagemMediator">
+          <modelElement href="programacaojava.uml#_kwQxjLBfEeyWbPl7KTrxjg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-0-lo7BhEeyWbPl7KTrxjg" name="adicionarColleague">
+      <modelElement href="programacaojava.uml#_-VZttbBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_-0-lr7BhEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_-0-lrrBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-0-lrLBhEeyWbPl7KTrxjg" name="colleague">
+        <modelElement href="programacaojava.uml#_-VZttrBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lvrBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-lrbBhEeyWbPl7KTrxjg" name="Amigos">
+          <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-0-lpLBhEeyWbPl7KTrxjg" name="enviar">
+      <modelElement href="programacaojava.uml#_-VZtt7BhEeyWbPl7KTrxjg"/>
+      <stereotypes xmi:id="_-0-ltrBhEeyWbPl7KTrxjg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_-VZturBhEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-0-lt7BhEeyWbPl7KTrxjg" name="Annotations">
+        <modelElement href="programacaojava.uml#_-VZtu7BhEeyWbPl7KTrxjg"/>
+      </stereotypes>
+      <visibility xmi:id="_-0-ltbBhEeyWbPl7KTrxjg" label="+"/>
+      <cardinality xmi:id="_-0-ltLBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-0-lsLBhEeyWbPl7KTrxjg" name="mensagem">
+        <modelElement href="programacaojava.uml#_-VZtuLBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lv7BhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-lsbBhEeyWbPl7KTrxjg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-0-lsrBhEeyWbPl7KTrxjg" name="colleague">
+        <modelElement href="programacaojava.uml#_-VZtubBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lwLBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-ls7BhEeyWbPl7KTrxjg" name="Amigos">
+          <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-0-lpbBhEeyWbPl7KTrxjg" name="definirProtocolo">
+      <modelElement href="programacaojava.uml#_-VZtvbBhEeyWbPl7KTrxjg"/>
+      <visibility xmi:id="_-0-lu7BhEeyWbPl7KTrxjg" label="-"/>
+      <cardinality xmi:id="_-0-lurBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-0-luLBhEeyWbPl7KTrxjg" name="contato">
+        <modelElement href="programacaojava.uml#_-VZtvrBhEeyWbPl7KTrxjg"/>
+        <cardinality xmi:id="_-0-lwbBhEeyWbPl7KTrxjg" label="1" max="1" min="1"/>
+        <type xmi:id="_-0-lubBhEeyWbPl7KTrxjg" name="Amigos">
+          <modelElement href="programacaojava.uml#_-VTnELBhEeyWbPl7KTrxjg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

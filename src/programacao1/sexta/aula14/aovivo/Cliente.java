@@ -36,7 +36,7 @@ public class Cliente {
 	public Cliente() {}
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", cpf=" + cpf + ", p=" + p + "]";
+		return "Editor [nome=" + nome + ", cpf=" + cpf + ", p=" + p + "]";
 	}
 	
 	

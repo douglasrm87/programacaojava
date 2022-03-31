@@ -24,6 +24,6 @@ public class Circle implements Shape {
 
 	@Override
 	public void draw() {
-		System.out.println("Circle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
+		System.out.println("Circulo: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
 	}
 }

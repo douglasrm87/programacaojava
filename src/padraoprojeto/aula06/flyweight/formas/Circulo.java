@@ -25,6 +25,6 @@ public class Circulo implements FormaGeometrica {
 
 	@Override
 	public void draw() {
-		System.out.println("Circle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
+		System.out.println("Circulo: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
 	}
 }

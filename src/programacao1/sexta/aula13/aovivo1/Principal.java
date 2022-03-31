@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /*
-Cliente [nome=Douglas, cpf=123456, 
+Editor [nome=Douglas, cpf=123456, 
 endereco=Endereco [logradouro=hugo simas, cidade=Curitiba, numero=201], 
 pedido=Pedido [numero=10, valorTotal=211.3, 
 listaitem=[ItemPedido [desc=Sapato, valorItem=50.9], 

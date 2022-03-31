@@ -32,7 +32,7 @@ InputStreamReader tArq4 = null;
 BufferedReader tArq5 = null;
 
 try {
-System.out.println("Iniciando Thread Cliente " + mCliente.getInetAddress().getHostAddress());
+System.out.println("Iniciando Thread Editor " + mCliente.getInetAddress().getHostAddress());
 tArq1 = mCliente.getOutputStream();
 tArq2 = new PrintWriter(tArq1, true);
 
@@ -50,7 +50,7 @@ if (tLinha.equalsIgnoreCase("fim"))
 break;
 }
 }
-System.out.println("Encerrando Thread Cliente" + mCliente.getInetAddress().getHostAddress());
+System.out.println("Encerrando Thread Editor" + mCliente.getInetAddress().getHostAddress());
 mCliente.close();
 } catch (IOException e) {
 System.out.println(e);
