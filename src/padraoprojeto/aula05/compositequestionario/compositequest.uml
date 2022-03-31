@@ -4,7 +4,14 @@
     <eAnnotations xmi:id="_O_EUcKPGEeyVO-s55lPFQg" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_O_EUcaPGEeyVO-s55lPFQg" source="codegen">
         <details xmi:id="_O_EUcqPGEeyVO-s55lPFQg" key="codegenDirectory" value="/programacaojava/src"/>
-        <details xmi:id="_PDVwcKPGEeyVO-s55lPFQg" key="AssociatedSourceCode" value="/programacaojava/src/padraoprojeto/aula05/compositequestionario/Questao.java;2391232047/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Bloco.java;872248016/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/ElementoDoQuestionario.java;3541216091/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Principal.java;409999243/1;"/>
+        <details xmi:id="_PDVwcKPGEeyVO-s55lPFQg" key="AssociatedSourceCode" value="/programacaojava/src/padraoprojeto/aula05/compositequestionario/Questao.java;2391232047/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Bloco.java;4124367181/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/ElementoDoQuestionario.java;3541216091/1;/programacaojava/src/padraoprojeto/aula05/compositequestionario/Principal.java;409999243/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ushJgLD_EeyZAL-ZAH-Pvw" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_ushwkLD_EeyZAL-ZAH-Pvw" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_ushwkbD_EeyZAL-ZAH-Pvw" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_ushwkrD_EeyZAL-ZAH-Pvw" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_ushwk7D_EeyZAL-ZAH-Pvw" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_O_EUc6PGEeyVO-s55lPFQg">
@@ -98,7 +105,9 @@
               <ownedParameter xmi:id="_Rhem0qPGEeyVO-s55lPFQg" name="descricao">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_Rhem06PGEeyVO-s55lPFQg" type="_RhBT0qPGEeyVO-s55lPFQg" direction="return"/>
+              <ownedParameter xmi:id="_Rhem06PGEeyVO-s55lPFQg" type="_RhBT0qPGEeyVO-s55lPFQg" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>super(descricao);&#xD;
 	</body>
@@ -118,6 +127,7 @@
             <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rhem2KPGEeyVO-s55lPFQg" name="exibir" specification="_RhLr4qPGEeyVO-s55lPFQg">
               <language>java</language>
               <body>System.out.println(&quot;Bloco: &quot; + descricao);&#xD;
+		// Iteração&#xD;
 		for (ElementoDoQuestionario item : elementos) {&#xD;
 			item.exibir();&#xD;
 		}&#xD;
