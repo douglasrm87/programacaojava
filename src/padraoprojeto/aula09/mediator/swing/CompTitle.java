@@ -16,7 +16,7 @@ public class CompTitle extends JTextField implements Component {
 
     @Override
     protected void processComponentKeyEvent(KeyEvent keyEvent) {
-        mediator.markNote();
+        this.mediator.markNote();
     }
 
     @Override

@@ -7,7 +7,7 @@ public class MensagemMediator implements Mediator {
 	protected ArrayList<Amigos> contatos;
 
 	public MensagemMediator() {
-		contatos = new ArrayList<Amigos>();
+		contatos = new ArrayList<>();
 	}
 
 	public void adicionarColleague(Amigos colleague) {

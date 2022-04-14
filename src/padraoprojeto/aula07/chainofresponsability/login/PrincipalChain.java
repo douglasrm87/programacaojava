@@ -9,17 +9,21 @@ import java.io.InputStreamReader;
  */
 public class PrincipalChain {
 	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-public static Server server;
+	public static Server server;
 	private static int QDADETentativas = 2;
-	
+
 	private static void init() {
 		server = new Server();
+		// usuarioPadrao = "drm@drm.com" ;
+		// senhaPadrao = "drm";
+		// Simulando uma busca de banco de dados com usuário cadastrados.
 		server.register(Middleware.usuarioPadrao, Middleware.senhaPadrao);
 		server.register("drm@fac.com", "pass");
 		server.register("user@example.com", "user_pass");
 
-		// All checks are linked. Client can build various chains using the same components.
-		// Primeiro valida se não estourou o tempo, segundo valida autenticacao ok e por fim valida o perfil.
+		// Vamos criar a estrutura de Encadeamento.
+		// 01) valida se não estourou o tempo, 02) valida autenticacao ok e por
+		// fim 03) valida o perfil.
 		Middleware middleware = new EstrangularTentativaMiddleware(PrincipalChain.QDADETentativas);
 		middleware.linkWith(new AutenticacaoCheckMiddleware(server)).linkWith(new AutorizacaoRoleCheckMiddleware());
 

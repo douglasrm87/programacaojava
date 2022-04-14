@@ -2,7 +2,7 @@ package padraoprojeto.aula07.chainofresponsability.login;
 
 public class AutenticacaoCheckMiddleware extends Middleware {
     private Server server;
-
+    // Receber um objeto do tipo server por causa da lista de usuário previamente carregada.
     public AutenticacaoCheckMiddleware(Server server) {
         this.server = server;
     }

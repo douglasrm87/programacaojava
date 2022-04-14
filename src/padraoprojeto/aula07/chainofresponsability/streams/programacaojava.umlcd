@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QqK1YLDtEeyDG4Y8nCv6lg">
   <modelElement href="programacaojava.uml#_Qouq8LDtEeyDG4Y8nCv6lg"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_S_xa0LDtEeyDG4Y8nCv6lg" sourceAnchor="686.0,154.0" targetAnchor="0.0,123.0" target="_S_1sQ7DtEeyDG4Y8nCv6lg" source="_S_xa4rDtEeyDG4Y8nCv6lg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_S_xa0LDtEeyDG4Y8nCv6lg" sourceAnchor="686.0,187.0" targetAnchor="0.0,123.0" target="_S_1sQ7DtEeyDG4Y8nCv6lg" source="_S_xa4rDtEeyDG4Y8nCv6lg">
     <modelElement href="programacaojava.uml#_RnziUbDtEeyDG4Y8nCv6lg"/>
     <stereotypes xmi:id="_S_xa0bDtEeyDG4Y8nCv6lg" name="Reference">
       <modelElement href="programacaojava.uml#_RnziU7DtEeyDG4Y8nCv6lg"/>
     </stereotypes>
     <nameVisual xmi:id="_S_xa0rDtEeyDG4Y8nCv6lg" text="">
-      <visualProperties xmi:id="_TJsL0rDtEeyDG4Y8nCv6lg" position="-36.666666666666686,2.0"/>
+      <visualProperties xmi:id="_TJsL0rDtEeyDG4Y8nCv6lg" position="-20.0,-24.0"/>
     </nameVisual>
     <sourceRole xmi:id="_S_xa07DtEeyDG4Y8nCv6lg" aggregationKind="NONE" name="">
       <modelElement href="programacaojava.uml#_RnziUrDtEeyDG4Y8nCv6lg"/>
-      <visualProperties xmi:id="_TJsL0bDtEeyDG4Y8nCv6lg" position="16.047619047619037,-57.0"/>
+      <visualProperties xmi:id="_TJsL0bDtEeyDG4Y8nCv6lg" position="16.16666666666663,-57.0"/>
       <visibility xmi:id="_S_xa1LDtEeyDG4Y8nCv6lg" label="+"/>
       <cardinality xmi:id="_S_xa1bDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_S_xa1rDtEeyDG4Y8nCv6lg" aggregationKind="NONE" name="listaLupulos" navigable="true">
       <modelElement href="programacaojava.uml#_RnNsdbDtEeyDG4Y8nCv6lg"/>
-      <visualProperties xmi:id="_TJsL07DtEeyDG4Y8nCv6lg" position="-135.0,32.0"/>
+      <visualProperties xmi:id="_TJsL07DtEeyDG4Y8nCv6lg" position="-157.83333333333337,2.0"/>
+      <stereotypes xmi:id="_gwgskLFKEey9itxJId8Bfg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnNsd7DtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
       <visibility xmi:id="_S_xa17DtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_xa2LDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
     </targetRole>
@@ -41,9 +44,9 @@
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_S_0eILDtEeyDG4Y8nCv6lg" sourceAnchor="338.0,0.0" targetAnchor="0.0,67.0" target="_S_1sQ7DtEeyDG4Y8nCv6lg" source="_S_1sQ7DtEeyDG4Y8nCv6lg">
     <modelElement href="programacaojava.uml#_RnziV7DtEeyDG4Y8nCv6lg"/>
-    <bendpoints xmi:id="__iIg8LDtEeyDG4Y8nCv6lg" sourceY="-102" targetX="338" targetY="-169"/>
-    <bendpoints xmi:id="__iJIALDtEeyDG4Y8nCv6lg" sourceX="-364" sourceY="-102" targetX="-26" targetY="-169"/>
-    <bendpoints xmi:id="__iJIAbDtEeyDG4Y8nCv6lg" sourceX="-364" sourceY="67" targetX="-26"/>
+    <bendpoints xmi:id="_i5gj8LFLEey9itxJId8Bfg" sourceY="-102" targetX="338" targetY="-169"/>
+    <bendpoints xmi:id="_i5gj8bFLEey9itxJId8Bfg" sourceX="-364" sourceY="-102" targetX="-26" targetY="-169"/>
+    <bendpoints xmi:id="_i5gj8rFLEey9itxJId8Bfg" sourceX="-364" sourceY="67" targetX="-26"/>
     <stereotypes xmi:id="_S_1FM7DtEeyDG4Y8nCv6lg" name="Reference">
       <modelElement href="programacaojava.uml#_RnziWbDtEeyDG4Y8nCv6lg"/>
     </stereotypes>
@@ -58,16 +61,22 @@
     </sourceRole>
     <targetRole xmi:id="_S_1FMrDtEeyDG4Y8nCv6lg" aggregationKind="NONE" name="lupuloAmargor" navigable="true">
       <modelElement href="programacaojava.uml#_RnOTgbDtEeyDG4Y8nCv6lg"/>
-      <visualProperties xmi:id="_TJsy4bDtEeyDG4Y8nCv6lg" position="-149.0,-60.00000000000006"/>
+      <visualProperties xmi:id="_TJsy4bDtEeyDG4Y8nCv6lg" position="-148.0,-159.99999999999972"/>
+      <stereotypes xmi:id="_gwhToLFKEey9itxJId8Bfg" name="Array">
+        <modelElement href="programacaojava.uml#_RnOTg7DtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gwhTobFKEey9itxJId8Bfg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnOThbDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
       <visibility xmi:id="_S_1FP7DtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_1FPrDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_S_0eIbDtEeyDG4Y8nCv6lg" sourceAnchor="351.0,0.0" targetAnchor="0.0,80.0" target="_S_1sQ7DtEeyDG4Y8nCv6lg" source="_S_1sQ7DtEeyDG4Y8nCv6lg">
     <modelElement href="programacaojava.uml#_RnziWrDtEeyDG4Y8nCv6lg"/>
-    <bendpoints xmi:id="__iJIArDtEeyDG4Y8nCv6lg" sourceY="-193" targetX="351" targetY="-273"/>
-    <bendpoints xmi:id="__iJIA7DtEeyDG4Y8nCv6lg" sourceX="-520" sourceY="-193" targetX="-169" targetY="-273"/>
-    <bendpoints xmi:id="__iJIBLDtEeyDG4Y8nCv6lg" sourceX="-520" sourceY="80" targetX="-169"/>
+    <bendpoints xmi:id="_i5gj87FLEey9itxJId8Bfg" sourceY="-193" targetX="351" targetY="-273"/>
+    <bendpoints xmi:id="_i5gj9LFLEey9itxJId8Bfg" sourceX="-520" sourceY="-193" targetX="-169" targetY="-273"/>
+    <bendpoints xmi:id="_i5gj9bFLEey9itxJId8Bfg" sourceX="-520" sourceY="80" targetX="-169"/>
     <stereotypes xmi:id="_S_1FN7DtEeyDG4Y8nCv6lg" name="Reference">
       <modelElement href="programacaojava.uml#_RnziXLDtEeyDG4Y8nCv6lg"/>
     </stereotypes>
@@ -82,16 +91,22 @@
     </sourceRole>
     <targetRole xmi:id="_S_1FNrDtEeyDG4Y8nCv6lg" aggregationKind="NONE" name="lupuloAroma" navigable="true">
       <modelElement href="programacaojava.uml#_RnOThrDtEeyDG4Y8nCv6lg"/>
-      <visualProperties xmi:id="_TJsy5LDtEeyDG4Y8nCv6lg" position="-272.0,-59.999999999999716"/>
+      <visualProperties xmi:id="_TJsy5LDtEeyDG4Y8nCv6lg" position="-275.0,-125.99999999999972"/>
+      <stereotypes xmi:id="_gwh6sLFKEey9itxJId8Bfg" name="Array">
+        <modelElement href="programacaojava.uml#_RnOTiLDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gwh6sbFKEey9itxJId8Bfg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnOTirDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
       <visibility xmi:id="_S_1FRbDtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_1FRLDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
     </targetRole>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_S_0eIrDtEeyDG4Y8nCv6lg" sourceAnchor="364.0,0.0" targetAnchor="0.0,93.0" target="_S_1sQ7DtEeyDG4Y8nCv6lg" source="_S_1sQ7DtEeyDG4Y8nCv6lg">
     <modelElement href="programacaojava.uml#_RnziXbDtEeyDG4Y8nCv6lg"/>
-    <bendpoints xmi:id="__iJIBbDtEeyDG4Y8nCv6lg" sourceY="-310" targetX="364" targetY="-403"/>
-    <bendpoints xmi:id="__iJIBrDtEeyDG4Y8nCv6lg" sourceX="-650" sourceY="-310" targetX="-286" targetY="-403"/>
-    <bendpoints xmi:id="__iJvELDtEeyDG4Y8nCv6lg" sourceX="-650" sourceY="93" targetX="-286"/>
+    <bendpoints xmi:id="_i5gj9rFLEey9itxJId8Bfg" sourceY="-310" targetX="364" targetY="-403"/>
+    <bendpoints xmi:id="_i5hLALFLEey9itxJId8Bfg" sourceX="-650" sourceY="-310" targetX="-286" targetY="-403"/>
+    <bendpoints xmi:id="_i5hLAbFLEey9itxJId8Bfg" sourceX="-650" sourceY="93" targetX="-286"/>
     <stereotypes xmi:id="_S_1FO7DtEeyDG4Y8nCv6lg" name="Reference">
       <modelElement href="programacaojava.uml#_Rn0JYLDtEeyDG4Y8nCv6lg"/>
     </stereotypes>
@@ -106,7 +121,13 @@
     </sourceRole>
     <targetRole xmi:id="_S_1FOrDtEeyDG4Y8nCv6lg" aggregationKind="NONE" name="lupuloSabor" navigable="true">
       <modelElement href="programacaojava.uml#_RnOTi7DtEeyDG4Y8nCv6lg"/>
-      <visualProperties xmi:id="_TJtZ8LDtEeyDG4Y8nCv6lg" position="-102.0,10.99999999999983"/>
+      <visualProperties xmi:id="_TJtZ8LDtEeyDG4Y8nCv6lg" position="-389.0000000000001,-151.0000000000001"/>
+      <stereotypes xmi:id="_gwh6srFKEey9itxJId8Bfg" name="Array">
+        <modelElement href="programacaojava.uml#_RnOTjbDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gwh6s7FKEey9itxJId8Bfg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnOTj7DtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
       <visibility xmi:id="_S_1sQLDtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_1FSrDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
     </targetRole>
@@ -299,9 +320,9 @@
     </attributes>
     <attributes xmi:id="_S_xa8bDtEeyDG4Y8nCv6lg" name="listaLupulos">
       <modelElement href="programacaojava.uml#_RnNsdbDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_xa8rDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnNsd7DtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
+      <stereotypes xmi:id="_gwk-ALFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwk-AbFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwnaQLFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
       <visibility xmi:id="_S_xa87DtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_xa9LDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
       <type xmi:id="_S_xa9bDtEeyDG4Y8nCv6lg" name="Lupulo">
@@ -433,23 +454,6 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_z3ELDtEeyDG4Y8nCv6lg" name="ComparativoRemoveIfIterator">
-    <modelElement href="programacaojava.uml#_RkUwgbDtEeyDG4Y8nCv6lg"/>
-    <visualProperties xmi:id="_S_z3EbDtEeyDG4Y8nCv6lg" position="386.0,12.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_S_z3ErDtEeyDG4Y8nCv6lg" label="+"/>
-    <operations xmi:id="_S_z3E7DtEeyDG4Y8nCv6lg" name="main" staticOperation="true">
-      <modelElement href="programacaojava.uml#_RkUwgrDtEeyDG4Y8nCv6lg"/>
-      <visibility xmi:id="_S_z3FLDtEeyDG4Y8nCv6lg" label="+"/>
-      <cardinality xmi:id="_S_z3FbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <parameters xmi:id="_S_z3FrDtEeyDG4Y8nCv6lg" name="args">
-        <modelElement href="programacaojava.uml#_RkUwg7DtEeyDG4Y8nCv6lg"/>
-        <cardinality xmi:id="_S_z3F7DtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_S_z3GLDtEeyDG4Y8nCv6lg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_3hcLDtEeyDG4Y8nCv6lg" name="PrincipalCervejariaSacada201">
     <modelElement href="programacaojava.uml#_RkV-o7DtEeyDG4Y8nCv6lg"/>
     <visualProperties xmi:id="_S_3hcbDtEeyDG4Y8nCv6lg" position="-213.0,574.0" size="-1.0,-1.0"/>
@@ -484,157 +488,9 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_1sQ7DtEeyDG4Y8nCv6lg" name="Lupulo" associationsIn="_S_0eILDtEeyDG4Y8nCv6lg _S_0eIbDtEeyDG4Y8nCv6lg _S_0eIrDtEeyDG4Y8nCv6lg _S_xa0LDtEeyDG4Y8nCv6lg" associationsOut="_S_0eILDtEeyDG4Y8nCv6lg _S_0eIbDtEeyDG4Y8nCv6lg _S_0eIrDtEeyDG4Y8nCv6lg">
-    <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-    <visualProperties xmi:id="_S_1sRLDtEeyDG4Y8nCv6lg" position="570.0,306.0" size="408.0,185.0"/>
-    <visibility xmi:id="_S_1sRbDtEeyDG4Y8nCv6lg" label="+"/>
-    <attributes xmi:id="_S_1sRrDtEeyDG4Y8nCv6lg" name="nomeLupulo">
-      <modelElement href="programacaojava.uml#_RnNserDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sR7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnNse7DtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sSLDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sSbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <type xmi:id="_S_1sSrDtEeyDG4Y8nCv6lg" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_S_1sS7DtEeyDG4Y8nCv6lg" name="percentualAlphaAcido">
-      <modelElement href="programacaojava.uml#_RnNsfLDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sTLDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnNsfbDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sTbDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sTrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <type xmi:id="_S_1sT7DtEeyDG4Y8nCv6lg" name="double">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_S_1sULDtEeyDG4Y8nCv6lg" name="percentualBetaAcido">
-      <modelElement href="programacaojava.uml#_RnNsfrDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sUbDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnOTgLDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sUrDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sU7DtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <type xmi:id="_S_1sVLDtEeyDG4Y8nCv6lg" name="double">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_S_1sVbDtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Columbus&quot;, 15.4, 2.3), new Lupulo(&quot;Magnum&quot;, 12.4, 2.5),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Galaxy&quot;, 15.1, 3.4), new Lupulo(&quot;Admiral&quot;, 13.1, 2.2), new Lupulo(&quot;Zeus&quot;, 14.2, 2.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Citra&quot;, 13.1, 4.1) }" name="lupuloAmargor" staticAttribute="true">
-      <modelElement href="programacaojava.uml#_RnOTgbDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sVrDtEeyDG4Y8nCv6lg" name="Array">
-        <modelElement href="programacaojava.uml#_RnOTg7DtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <stereotypes xmi:id="_S_1sV7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnOThbDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sWLDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sWbDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_S_1sWrDtEeyDG4Y8nCv6lg" name="Lupulo">
-        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_S_1sW7DtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Amarillo&quot;, 5.4, 3.3), new Lupulo(&quot;Merkur&quot;, 2.9, 3.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Saaz&quot;, 5.1, 4.4), new Lupulo(&quot;Saphir&quot;, 3.1, 2.6), new Lupulo(&quot;Fuggle&quot;, 4.2, 2.6),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Centennial&quot;, 3.1, 4.1) }" name="lupuloAroma" staticAttribute="true">
-      <modelElement href="programacaojava.uml#_RnOThrDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sXLDtEeyDG4Y8nCv6lg" name="Array">
-        <modelElement href="programacaojava.uml#_RnOTiLDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <stereotypes xmi:id="_S_1sXbDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnOTirDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sXrDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sX7DtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_S_1sYLDtEeyDG4Y8nCv6lg" name="Lupulo">
-        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_S_1sYbDtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Cascade&quot;, 3.3, 3.5), new Lupulo(&quot;Magnum&quot;, 4.4, 4.5),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Galaxy&quot;, 5.1, 4.4), new Lupulo(&quot;Simcoe&quot;, 3.1, 2.2), new Lupulo(&quot;Blanc&quot;, 6.1, 3.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Melon&quot;, 4.7, 2.8) }" name="lupuloSabor" staticAttribute="true">
-      <modelElement href="programacaojava.uml#_RnOTi7DtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sYrDtEeyDG4Y8nCv6lg" name="Array">
-        <modelElement href="programacaojava.uml#_RnOTjbDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <stereotypes xmi:id="_S_1sY7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RnOTj7DtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sZLDtEeyDG4Y8nCv6lg" label="-"/>
-      <cardinality xmi:id="_S_1sZbDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_S_1sZrDtEeyDG4Y8nCv6lg" name="Lupulo">
-        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_S_1sZ7DtEeyDG4Y8nCv6lg" name="Lupulo">
-      <modelElement href="programacaojava.uml#_RkVXkbDtEeyDG4Y8nCv6lg"/>
-      <keywords xmi:id="_S_1saLDtEeyDG4Y8nCv6lg" keyword="create"/>
-      <visibility xmi:id="_S_1sabDtEeyDG4Y8nCv6lg" label="+"/>
-      <cardinality xmi:id="_S_1sarDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_S_1sa7DtEeyDG4Y8nCv6lg">
-        <modelElement href="programacaojava.uml#_RkVXl7DtEeyDG4Y8nCv6lg"/>
-        <type xmi:id="_S_1sbLDtEeyDG4Y8nCv6lg" name="Lupulo">
-          <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_S_1sbbDtEeyDG4Y8nCv6lg" name="nomeLupulo">
-        <modelElement href="programacaojava.uml#_RkVXkrDtEeyDG4Y8nCv6lg"/>
-        <cardinality xmi:id="_S_1sbrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-        <type xmi:id="_S_1sb7DtEeyDG4Y8nCv6lg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_S_1scLDtEeyDG4Y8nCv6lg" name="percentualAlphaAcido">
-        <modelElement href="programacaojava.uml#_RkVXk7DtEeyDG4Y8nCv6lg"/>
-        <cardinality xmi:id="_S_1scbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-        <type xmi:id="_S_1scrDtEeyDG4Y8nCv6lg" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_S_1sc7DtEeyDG4Y8nCv6lg" name="percentualBetaAcido">
-        <modelElement href="programacaojava.uml#_RkVXlLDtEeyDG4Y8nCv6lg"/>
-        <cardinality xmi:id="_S_1sdLDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-        <type xmi:id="_S_1sdbDtEeyDG4Y8nCv6lg" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_S_1sdrDtEeyDG4Y8nCv6lg" name="carregarLupulos" staticOperation="true">
-      <modelElement href="programacaojava.uml#_RkVXmLDtEeyDG4Y8nCv6lg"/>
-      <visibility xmi:id="_S_1sd7DtEeyDG4Y8nCv6lg" label="+"/>
-      <cardinality xmi:id="_S_1seLDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
-      <outParameters xmi:id="_S_1sebDtEeyDG4Y8nCv6lg">
-        <modelElement href="programacaojava.uml#_RkVXmrDtEeyDG4Y8nCv6lg"/>
-        <type xmi:id="_S_1serDtEeyDG4Y8nCv6lg" name="Lupulo">
-          <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_S_1se7DtEeyDG4Y8nCv6lg" name="id">
-        <modelElement href="programacaojava.uml#_RkVXmbDtEeyDG4Y8nCv6lg"/>
-        <cardinality xmi:id="_S_1sfLDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-        <type xmi:id="_S_1sfbDtEeyDG4Y8nCv6lg" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_S_1sfrDtEeyDG4Y8nCv6lg" name="toString">
-      <modelElement href="programacaojava.uml#_RkVXnLDtEeyDG4Y8nCv6lg"/>
-      <stereotypes xmi:id="_S_1sf7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
-        <modelElement href="programacaojava.uml#_RkV-oLDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <stereotypes xmi:id="_S_1sgLDtEeyDG4Y8nCv6lg" name="Annotations">
-        <modelElement href="programacaojava.uml#_RkV-obDtEeyDG4Y8nCv6lg"/>
-      </stereotypes>
-      <visibility xmi:id="_S_1sgbDtEeyDG4Y8nCv6lg" label="+"/>
-      <cardinality xmi:id="_S_1sgrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_S_1sg7DtEeyDG4Y8nCv6lg">
-        <modelElement href="programacaojava.uml#_RkVXnbDtEeyDG4Y8nCv6lg"/>
-        <type xmi:id="_S_1shLDtEeyDG4Y8nCv6lg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_uXgLDtEeyDG4Y8nCv6lg" name="AcessoColecaoImperativo">
     <modelElement href="programacaojava.uml#_RkS7ULDtEeyDG4Y8nCv6lg"/>
-    <visualProperties xmi:id="_S_uXgbDtEeyDG4Y8nCv6lg" position="283.0,511.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_S_uXgbDtEeyDG4Y8nCv6lg" position="285.0,529.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_S_uXgrDtEeyDG4Y8nCv6lg" label="+"/>
     <attributes xmi:id="_S_uXg7DtEeyDG4Y8nCv6lg" defaultValue="0" name="total">
       <modelElement href="programacaojava.uml#_RnNFbbDtEeyDG4Y8nCv6lg"/>
@@ -717,6 +573,173 @@
       <modelElement href="programacaojava.uml#_RkTiZbDtEeyDG4Y8nCv6lg"/>
       <visibility xmi:id="_S_uXp7DtEeyDG4Y8nCv6lg" label="-"/>
       <cardinality xmi:id="_S_uXqLDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_1sQ7DtEeyDG4Y8nCv6lg" name="Lupulo" associationsIn="_S_0eILDtEeyDG4Y8nCv6lg _S_0eIbDtEeyDG4Y8nCv6lg _S_0eIrDtEeyDG4Y8nCv6lg _S_xa0LDtEeyDG4Y8nCv6lg" associationsOut="_S_0eILDtEeyDG4Y8nCv6lg _S_0eIbDtEeyDG4Y8nCv6lg _S_0eIrDtEeyDG4Y8nCv6lg">
+    <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_S_1sRLDtEeyDG4Y8nCv6lg" position="709.0,339.0" size="408.0,185.0"/>
+    <visibility xmi:id="_S_1sRbDtEeyDG4Y8nCv6lg" label="+"/>
+    <attributes xmi:id="_S_1sRrDtEeyDG4Y8nCv6lg" name="nomeLupulo">
+      <modelElement href="programacaojava.uml#_RnNserDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_S_1sR7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnNse7DtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_S_1sSLDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sSbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_S_1sSrDtEeyDG4Y8nCv6lg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_S_1sS7DtEeyDG4Y8nCv6lg" name="percentualAlphaAcido">
+      <modelElement href="programacaojava.uml#_RnNsfLDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_S_1sTLDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnNsfbDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_S_1sTbDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sTrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_S_1sT7DtEeyDG4Y8nCv6lg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_S_1sULDtEeyDG4Y8nCv6lg" name="percentualBetaAcido">
+      <modelElement href="programacaojava.uml#_RnNsfrDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_S_1sUbDtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RnOTgLDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_S_1sUrDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sU7DtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <type xmi:id="_S_1sVLDtEeyDG4Y8nCv6lg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_S_1sVbDtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Columbus&quot;, 15.4, 2.3), new Lupulo(&quot;Magnum&quot;, 12.4, 2.5),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Galaxy&quot;, 15.1, 3.4), new Lupulo(&quot;Admiral&quot;, 13.1, 2.2), new Lupulo(&quot;Zeus&quot;, 14.2, 2.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Citra&quot;, 13.1, 4.1) }" name="lupuloAmargor" staticAttribute="true">
+      <modelElement href="programacaojava.uml#_RnOTgbDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_gwllELFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwllEbFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwllErFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwmMILFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwoBULFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwoBUbFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_S_1sWLDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sWbDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_S_1sWrDtEeyDG4Y8nCv6lg" name="Lupulo">
+        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_S_1sW7DtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Amarillo&quot;, 5.4, 3.3), new Lupulo(&quot;Merkur&quot;, 2.9, 3.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Saaz&quot;, 5.1, 4.4), new Lupulo(&quot;Saphir&quot;, 3.1, 2.6), new Lupulo(&quot;Fuggle&quot;, 4.2, 2.6),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Centennial&quot;, 3.1, 4.1) }" name="lupuloAroma" staticAttribute="true">
+      <modelElement href="programacaojava.uml#_RnOThrDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_gwmMIbFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwmMIrFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwmMI7FKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwmzMLFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwoBUrFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwooYLFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_S_1sXrDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sX7DtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_S_1sYLDtEeyDG4Y8nCv6lg" name="Lupulo">
+        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_S_1sYbDtEeyDG4Y8nCv6lg" defaultValue="new Lupulo[] { new Lupulo(&quot;Cascade&quot;, 3.3, 3.5), new Lupulo(&quot;Magnum&quot;, 4.4, 4.5),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Galaxy&quot;, 5.1, 4.4), new Lupulo(&quot;Simcoe&quot;, 3.1, 2.2), new Lupulo(&quot;Blanc&quot;, 6.1, 3.1),&#xD;&#xA;&#x9;&#x9;&#x9;new Lupulo(&quot;Melon&quot;, 4.7, 2.8) }" name="lupuloSabor" staticAttribute="true">
+      <modelElement href="programacaojava.uml#_RnOTi7DtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_gwmzMbFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwmzMrFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwmzM7FKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwmzNLFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_gwooYbFKEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_gwooYrFKEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_maU_ULFLEey9itxJId8Bfg" name="Array"/>
+      <stereotypes xmi:id="_maVmYLFLEey9itxJId8Bfg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_S_1sZLDtEeyDG4Y8nCv6lg" label="-"/>
+      <cardinality xmi:id="_S_1sZbDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_S_1sZrDtEeyDG4Y8nCv6lg" name="Lupulo">
+        <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_S_1sZ7DtEeyDG4Y8nCv6lg" name="Lupulo">
+      <modelElement href="programacaojava.uml#_RkVXkbDtEeyDG4Y8nCv6lg"/>
+      <keywords xmi:id="_S_1saLDtEeyDG4Y8nCv6lg" keyword="create"/>
+      <visibility xmi:id="_S_1sabDtEeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_S_1sarDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_S_1sa7DtEeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_RkVXl7DtEeyDG4Y8nCv6lg"/>
+        <type xmi:id="_S_1sbLDtEeyDG4Y8nCv6lg" name="Lupulo">
+          <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_S_1sbbDtEeyDG4Y8nCv6lg" name="nomeLupulo">
+        <modelElement href="programacaojava.uml#_RkVXkrDtEeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_S_1sbrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_S_1sb7DtEeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_S_1scLDtEeyDG4Y8nCv6lg" name="percentualAlphaAcido">
+        <modelElement href="programacaojava.uml#_RkVXk7DtEeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_S_1scbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_S_1scrDtEeyDG4Y8nCv6lg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_S_1sc7DtEeyDG4Y8nCv6lg" name="percentualBetaAcido">
+        <modelElement href="programacaojava.uml#_RkVXlLDtEeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_S_1sdLDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_S_1sdbDtEeyDG4Y8nCv6lg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_S_1sdrDtEeyDG4Y8nCv6lg" name="carregarLupulos" staticOperation="true">
+      <modelElement href="programacaojava.uml#_RkVXmLDtEeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_S_1sd7DtEeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_S_1seLDtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_S_1sebDtEeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_RkVXmrDtEeyDG4Y8nCv6lg"/>
+        <type xmi:id="_S_1serDtEeyDG4Y8nCv6lg" name="Lupulo">
+          <modelElement href="programacaojava.uml#_RkVXkLDtEeyDG4Y8nCv6lg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_S_1se7DtEeyDG4Y8nCv6lg" name="id">
+        <modelElement href="programacaojava.uml#_RkVXmbDtEeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_S_1sfLDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+        <type xmi:id="_S_1sfbDtEeyDG4Y8nCv6lg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_S_1sfrDtEeyDG4Y8nCv6lg" name="toString">
+      <modelElement href="programacaojava.uml#_RkVXnLDtEeyDG4Y8nCv6lg"/>
+      <stereotypes xmi:id="_S_1sf7DtEeyDG4Y8nCv6lg" name="LegacyStyledElement">
+        <modelElement href="programacaojava.uml#_RkV-oLDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_S_1sgLDtEeyDG4Y8nCv6lg" name="Annotations">
+        <modelElement href="programacaojava.uml#_RkV-obDtEeyDG4Y8nCv6lg"/>
+      </stereotypes>
+      <visibility xmi:id="_S_1sgbDtEeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_S_1sgrDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_S_1sg7DtEeyDG4Y8nCv6lg">
+        <modelElement href="programacaojava.uml#_RkVXnbDtEeyDG4Y8nCv6lg"/>
+        <type xmi:id="_S_1shLDtEeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_z3ELDtEeyDG4Y8nCv6lg" name="ComparativoRemoveIfIterator">
+    <modelElement href="programacaojava.uml#_RkUwgbDtEeyDG4Y8nCv6lg"/>
+    <visualProperties xmi:id="_S_z3EbDtEeyDG4Y8nCv6lg" position="577.0,59.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_S_z3ErDtEeyDG4Y8nCv6lg" label="+"/>
+    <operations xmi:id="_S_z3E7DtEeyDG4Y8nCv6lg" name="main" staticOperation="true">
+      <modelElement href="programacaojava.uml#_RkUwgrDtEeyDG4Y8nCv6lg"/>
+      <visibility xmi:id="_S_z3FLDtEeyDG4Y8nCv6lg" label="+"/>
+      <cardinality xmi:id="_S_z3FbDtEeyDG4Y8nCv6lg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_S_z3FrDtEeyDG4Y8nCv6lg" name="args">
+        <modelElement href="programacaojava.uml#_RkUwg7DtEeyDG4Y8nCv6lg"/>
+        <cardinality xmi:id="_S_z3F7DtEeyDG4Y8nCv6lg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_S_z3GLDtEeyDG4Y8nCv6lg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
     </operations>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
