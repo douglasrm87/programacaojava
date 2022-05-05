@@ -1,12 +1,12 @@
-package padraoprojeto.aula12.observer;
+package padraoprojeto.aula11.observer;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class ObserverThread02 extends Thread {
+public class AdaparObservador extends Thread {
 	String frase;
 	SubjectOrigemdoEvento eventSource;
-	public ObserverThread02(String frase, SubjectOrigemdoEvento eventSource) {
+	public AdaparObservador(String frase, SubjectOrigemdoEvento eventSource) {
 		this.frase = frase;
 		this.eventSource = eventSource;
 	}
@@ -14,7 +14,7 @@ public class ObserverThread02 extends Thread {
 		System.out.println(frase);
 		eventSource.addObserver(new Observer() {
 			public void update(Observable obj, Object arg) {
-				System.out.println(frase + " - " + arg);
+				System.out.println(frase + " - Temperatura atualizada para:" + arg);
 			}
 		});
 

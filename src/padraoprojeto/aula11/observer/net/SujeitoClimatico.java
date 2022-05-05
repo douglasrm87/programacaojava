@@ -1,16 +1,16 @@
-package padraoprojeto.aula12.observer.net;
+package padraoprojeto.aula11.observer.net;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class ObserverClasse01 {
+public class SujeitoClimatico {
     public static void main(String[] args) {
-        System.out.println("Enter Text: ");
-        SubjectEventSource eventSource = new SubjectEventSource();
+        System.out.println("Sujeito Climatico.");
+        ObservadorClimatico eventSource = new ObservadorClimatico();
 
         eventSource.addObserver(new Observer() {
             public void update(Observable obj, Object arg) {
-                System.out.println("Received response: " + arg);
+                System.out.println("Observers acionados via Broadcast." + arg);
             }
         });
 
