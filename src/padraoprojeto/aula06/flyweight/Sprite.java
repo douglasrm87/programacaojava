@@ -11,6 +11,6 @@ public class Sprite extends SpriteFlyweight {
 	@Override
 	public void desenharImagem(Ponto ponto) {
 		imagem.desenharImagem();
-		System.out.println("No ponto (" + ponto.x + "," + ponto.y + ")!");
+		System.out.println("Fatorial ponto (" + ponto.x + "," + ponto.y + ")!");
 	}
 }

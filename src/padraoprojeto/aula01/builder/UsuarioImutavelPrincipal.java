@@ -12,8 +12,8 @@ public class UsuarioImutavelPrincipal {
 					.build();
 			System.out.println(user2);
 			UsuarioImutavel user3 = new UsuarioImutavel.UsuarioImutavelBuilder("Leandro", "Mendes")
-					// No age
-					// No phone
+					// Fatorial age
+					// Fatorial phone
 					// no address
 					.build();
 			System.out.println(user3);
