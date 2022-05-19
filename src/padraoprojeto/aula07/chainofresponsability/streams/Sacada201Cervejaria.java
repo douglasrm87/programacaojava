@@ -106,7 +106,7 @@ public class Sacada201Cervejaria {
 																		// mapToDouble
 																		// e
 																		// sum()
-		System.out.println("Soma de amargor:" + somaAmargor);
+		System.out.println("TrabalhoGrupo de amargor:" + somaAmargor);
 
 		OptionalDouble maiorAmargor = this.listaCervejaArtesanal.stream().filter(maior -> maior.getIndAmargorIBU() > 0)
 				.mapToDouble(CervejaArtesanal::getIndAmargorIBU).max(); // usando

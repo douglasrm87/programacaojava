@@ -16,7 +16,7 @@ public class Arranjo {
 			System.out.println("a[" + i + "] = " + a[i]);
 			soma += a[i];
 		}
-		System.out.println("Soma = " + soma);
+		System.out.println("TrabalhoGrupo = " + soma);
 		System.out.println("Media:" + soma / a.length);
 
 		s.close();

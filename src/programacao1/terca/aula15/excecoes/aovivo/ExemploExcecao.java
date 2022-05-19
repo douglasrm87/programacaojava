@@ -33,9 +33,9 @@ public class ExemploExcecao {
 			e1.printStackTrace();
 		}
 
-		System.out.println("Soma: " + calculadora(10, 10, "+"));
+		System.out.println("TrabalhoGrupo: " + calculadora(10, 10, "+"));
 		try {
-			System.out.println("Soma: " + calculadora(10, 0, "/"));
+			System.out.println("TrabalhoGrupo: " + calculadora(10, 0, "/"));
 		} catch (Exception e) {
 			System.out.println("\nMSG:" + e.getMessage());
 			System.out.println();
